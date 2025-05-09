@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Stäng",
+    "copy": "Kopiera",
+    "copied": "Kopierad",
+    "noRecords": "Inga resultat har hittats",
+    "noTransactionRecords": "Inga transaktionsuppgifter hittades",
+    "noRolloverRecords": "Inga uppgifter om överrullning hittades",
+    "noBettingRecords": "Inga spelregister hittades",
+    "tryChangingFilter": "Försök ändra dina filterinställningar"
+  },
+  "tabs": {
+    "transactionHistory": "Transaktionshistorik",
+    "betHistory": "Spelhistorik",
+    "rollover": "Övergång"
+  },
+  "filters": {
+    "all": "Alla",
+    "allTypes": "Alla typer",
+    "allStatuses": "All status",
+    "allGames": "Alla spel",
+    "allAssets": "Alla tillgångar",
+    "type": "Typ",
+    "period": "Period",
+    "status": "Status",
+    "asset": "Tillgång",
+    "game": "Spel",
+    "currency": "Valuta",
+    "selectCurrency": "Välj valuta",
+    "past24Hours": "Senaste 24 timmarna",
+    "past7Days": "Senaste 7 dagarna",
+    "past30Days": "Senaste 30 dagarna",
+    "past60Days": "Senaste 60 dagar",
+    "past90Days": "Senaste 90 dagar"
+  },
+  "transactionStatus": {
+    "pending": "Väntande",
+    "completed": "Slutförd",
+    "cancelled": "Avbruten",
+    "success": "Sparades",
+    "failed": "Misslyckad",
+    "expired": "Utgången",
+    "processing": "Bearbetas",
+    "unknown": "Okänd",
+    "notStarted": "Ej påbörjad",
+    "ongoing": "Pågående",
+    "done": "Klar"
+  },
+  "transactionTypes": {
+    "deposit": "Deposition",
+    "fiatDeposit": "Fiat Insättning",
+    "cryptoDeposit": "Kryptoinsättning",
+    "withdrawal": "Uttag",
+    "fiatWithdraw": "Fiat drar sig tillbaka",
+    "cryptoWithdraw": "Uttag av krypto",
+    "bonus": "Bonus",
+    "win": "Vinst",
+    "bet": "Satsa",
+    "refund": "Återbetalning",
+    "fiatDepositIssues": "Frågor eller tvister om Fiat Deposit",
+    "transaction": "Transaktion"
+  },
+  "gameTypes": {
+    "slots": "Slots",
+    "table": "Tabell",
+    "live": "Live",
+    "crash": "Krasch",
+    "sports": "Idrott",
+    "roulette": "Roulette",
+    "fishing": "Fiske",
+    "poker": "Poker",
+    "blockchain": "Blockkedja",
+    "keno": "Icke-Keno-spel",
+    "show": "Visa",
+    "arcade": "Arkad",
+    "unknown": "Okänt spel"
+  },
+  "tableHeaders": {
+    "time": "Tid",
+    "type": "Typ",
+    "amount": "Belopp",
+    "status": "Status",
+    "details": "Detaljer",
+    "game": "Spel",
+    "bet": "Satsa",
+    "betId": "Spel-ID",
+    "gameProvider": "Leverantör",
+    "multiplier": "Multiplikator",
+    "payout": "Utbetalning",
+    "actions": "Åtgärder",
+    "profit": "Vinst",
+    "wager": "Satsning"
+  },
+  "details": {
+    "title": "TransaktionsDetaljer",
+    "paymentMethod": "Betalningsmetod",
+    "orderId": "Order ID",
+    "transactionHash": "Transaktionens hash",
+    "created": "Skapad",
+    "transactionProgress": "Transaktionens fortskridande",
+    "depositOrderCreated": "Insättningsorder skapad",
+    "gatewayConfirmation": "Gateway Bekräftelse",
+    "transactionCompleted": "Transaktion slutförd",
+    "lastUpdate": "Senast uppdaterad",
+    "expired": "Denna order har löpt ut. Kontakta oss om du har några ytterligare frågor."
+  },
+  "betHistory": {
+    "winAmount": "Vinstbelopp",
+    "betAmount": "Insatsbelopp"
+  },
+  "rollover": {
+    "wagerRequirement": "Satsningskrav",
+    "remainingWager": "Återstående insats",
+    "expireTime": "Utgångs tid",
+    "rolloverType": "Typ av överrullning"
+  }
+}

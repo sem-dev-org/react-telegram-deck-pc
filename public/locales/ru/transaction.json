@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Закрыть",
+    "copy": "Копировать",
+    "copied": "Скопировано",
+    "noRecords": "Записей не найдено",
+    "noTransactionRecords": "Записи о транзакциях не найдены",
+    "noRolloverRecords": "Записи о переворачивании не найдены",
+    "noBettingRecords": "Записи о ставках не найдены",
+    "tryChangingFilter": "Попробуйте изменить настройки фильтра"
+  },
+  "tabs": {
+    "transactionHistory": "Заказы",
+    "betHistory": "История ставок",
+    "rollover": "Перекатывать"
+  },
+  "filters": {
+    "all": "Все",
+    "allTypes": "Все типы",
+    "allStatuses": "Все статусы",
+    "allGames": "Все игры",
+    "allAssets": "Все активы",
+    "type": "Тип",
+    "period": "Период",
+    "status": "Статус",
+    "asset": "Актив",
+    "game": "Игра",
+    "currency": "Валюта",
+    "selectCurrency": "Выберите валюту",
+    "past24Hours": "Последние 24 часа",
+    "past7Days": "Последние 7 дней",
+    "past30Days": "За последние 30 дней",
+    "past60Days": "Последние 60 дней",
+    "past90Days": "Последние 90 дней"
+  },
+  "transactionStatus": {
+    "pending": "В ожидании",
+    "completed": "Завершено",
+    "cancelled": "Отменен",
+    "success": "Успех",
+    "failed": "Ошибка",
+    "expired": "Истекший",
+    "processing": "Обработка",
+    "unknown": "Неизвестно",
+    "notStarted": "Не начался",
+    "ongoing": "Текущие",
+    "done": "Готово"
+  },
+  "transactionTypes": {
+    "deposit": "Депозит",
+    "fiatDeposit": "Депозит Fiat",
+    "cryptoDeposit": "Депозит криптовалюты",
+    "withdrawal": "Вывод средств",
+    "fiatWithdraw": "Вывод средств Fiat",
+    "cryptoWithdraw": "Вывод криптовалюты",
+    "bonus": "Бонус",
+    "win": "Победа",
+    "bet": "Ставка",
+    "refund": "Возврат",
+    "fiatDepositIssues": "Вопросы и споры по фиатным вкладам",
+    "transaction": "Транзакция"
+  },
+  "gameTypes": {
+    "slots": "Слоты",
+    "table": "Таблица",
+    "live": "Live",
+    "crash": "Авария",
+    "sports": "Виды спорта",
+    "roulette": "Рулетка",
+    "fishing": "Рыбалка",
+    "poker": "Покер",
+    "blockchain": "Блокчейн",
+    "keno": "Кено",
+    "show": "Показать",
+    "arcade": "Аркада",
+    "unknown": "Неизвестная игра"
+  },
+  "tableHeaders": {
+    "time": "Время",
+    "type": "Тип",
+    "amount": "Сумма",
+    "status": "Статус",
+    "details": "Детали",
+    "game": "Игра",
+    "bet": "Ставка",
+    "betId": "ID ставки",
+    "gameProvider": "Провайдер",
+    "multiplier": "Мультипликатор",
+    "payout": "Выплата",
+    "actions": "Действия",
+    "profit": "Прибыль",
+    "wager": "Ставка"
+  },
+  "details": {
+    "title": "Детали транзакции",
+    "paymentMethod": "Способ оплаты",
+    "orderId": "ID заказа",
+    "transactionHash": "Хэш транзакции",
+    "created": "Создан",
+    "transactionProgress": "Ход сделки",
+    "depositOrderCreated": "Создан депозитный ордер",
+    "gatewayConfirmation": "Подтверждение шлюза",
+    "transactionCompleted": "Транзакция завершена",
+    "lastUpdate": "Последнее обновление",
+    "expired": "Срок действия этого заказа истек. Свяжитесь с нами, если у вас возникнут дополнительные вопросы."
+  },
+  "betHistory": {
+    "winAmount": "Сумма выигрыша",
+    "betAmount": "Сумма ставки"
+  },
+  "rollover": {
+    "wagerRequirement": "Требование к ставке",
+    "remainingWager": "Оставшаяся ставка",
+    "expireTime": "Истекает",
+    "rolloverType": "Тип переворачивания"
+  }
+}

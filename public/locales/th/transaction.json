@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "ปิด",
+    "copy": "คัดลอก",
+    "copied": "คัดลอกแล้ว",
+    "noRecords": "ไม่พบบันทึก",
+    "noTransactionRecords": "ไม่พบรายการบันทึกรายการธุรกรรม",
+    "noRolloverRecords": "ไม่พบบันทึกการหมุนเวียน",
+    "noBettingRecords": "ไม่พบบันทึกการเดิมพัน",
+    "tryChangingFilter": "ลองเปลี่ยนการตั้งค่าตัวกรองของคุณ"
+  },
+  "tabs": {
+    "transactionHistory": "ประวัติการทำรายการ",
+    "betHistory": "ประวัติการเดิมพัน",
+    "rollover": "การพลิกกลับ"
+  },
+  "filters": {
+    "all": "ทั้งหมด",
+    "allTypes": "ทุกประเภท",
+    "allStatuses": "สถานะทั้งหมด",
+    "allGames": "เกมทั้งหมด",
+    "allAssets": "สินทรัพย์ทั้งหมด",
+    "type": "ชนิด",
+    "period": "ช่วงเวลา",
+    "status": "สถานะ",
+    "asset": "สินทรัพย์",
+    "game": "เกม ",
+    "currency": "สกุลเงิน",
+    "selectCurrency": "เลือกสกุลเงิน",
+    "past24Hours": "24 ชั่วโมงที่ผ่านมา",
+    "past7Days": "7 วันที่ผ่านมา",
+    "past30Days": "30 วันที่ผ่านมา",
+    "past60Days": "60 วันที่ผ่านมา",
+    "past90Days": "90 วันที่ผ่านมา"
+  },
+  "transactionStatus": {
+    "pending": "รอดำเนินการ",
+    "completed": "เสร็จ",
+    "cancelled": "ยกเลิกแล้ว",
+    "success": "สำเร็จ",
+    "failed": "ล้มเหลว",
+    "expired": "หมดอายุ",
+    "processing": "กำลังดำเนินการ",
+    "unknown": "ไม่ทราบ",
+    "notStarted": "ยังไม่ได้เริ่ม",
+    "ongoing": "อย่างต่อเนื่อง",
+    "done": "เสร็จสิ้น"
+  },
+  "transactionTypes": {
+    "deposit": "ฝากเงิน",
+    "fiatDeposit": "เงินฝาก Fiat",
+    "cryptoDeposit": "การฝากเงินคริปโต",
+    "withdrawal": "การถอน",
+    "fiatWithdraw": "ถอนเงิน Fiat",
+    "cryptoWithdraw": "การถอนเงินด้วยคริปโต",
+    "bonus": "โบนัส",
+    "win": "ชนะ",
+    "bet": "เดิมพัน",
+    "refund": "คืนเงิน",
+    "fiatDepositIssues": "ปัญหาหรือข้อโต้แย้งเกี่ยวกับการฝากเงิน Fiat",
+    "transaction": "ธุรกรรม"
+  },
+  "gameTypes": {
+    "slots": "ช่วงเวลา",
+    "table": "ตาราง",
+    "live": "Live",
+    "crash": "ชน",
+    "sports": "กีฬา",
+    "roulette": "รูเล็ต",
+    "fishing": "การตกปลา",
+    "poker": "โป๊กเกอร์",
+    "blockchain": "บล็อคเชน",
+    "keno": "เคนโนะ",
+    "show": "แสดง",
+    "arcade": "อาร์เคด",
+    "unknown": "เกมที่ไม่รู้จัก"
+  },
+  "tableHeaders": {
+    "time": "เวลา",
+    "type": "ชนิด",
+    "amount": "จำนวน",
+    "status": "สถานะ",
+    "details": "รายละเอียด",
+    "game": "เกม ",
+    "bet": "เดิมพัน",
+    "betId": "รหัสเดิมพัน",
+    "gameProvider": "ร้านค้า/ผู้ให้บริการ",
+    "multiplier": "ตัวคูณ",
+    "payout": "การจ่ายเงิน",
+    "actions": "การกระทำ",
+    "profit": "กำไร",
+    "wager": "เดิมพัน"
+  },
+  "details": {
+    "title": "รายละเอียดการทำธุรกรรม",
+    "paymentMethod": "วิธีการชำระเงิน",
+    "orderId": "เลขที่สั่งซื้อ",
+    "transactionHash": "แฮชธุรกรรม",
+    "created": "ที่สร้างไว้",
+    "transactionProgress": "ความคืบหน้าการทำธุรกรรม",
+    "depositOrderCreated": "สร้างคำสั่งฝากเงินแล้ว",
+    "gatewayConfirmation": "การยืนยันผ่านเกตเวย์",
+    "transactionCompleted": "การทำธุรกรรมเสร็จสมบูรณ์",
+    "lastUpdate": "การปรับปรุงครั้งล่าสุด",
+    "expired": "คำสั่งซื้อนี้หมดอายุแล้ว โปรดติดต่อเราหากคุณมีคำถามเพิ่มเติม"
+  },
+  "betHistory": {
+    "winAmount": "จำนวนเงินที่ชนะ",
+    "betAmount": "จำนวนเงินเดิมพัน"
+  },
+  "rollover": {
+    "wagerRequirement": "ข้อกำหนดการเดิมพัน",
+    "remainingWager": "เดิมพันที่เหลืออยู่",
+    "expireTime": "เวลาหมดอายุ",
+    "rolloverType": "ประเภทการโรลโอเวอร์"
+  }
+}

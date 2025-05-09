@@ -1,0 +1,7 @@
+{
+    "emailError": "Lütfen Geçerli Bir E-posta Girin.",
+    "phoneError": "Lütfen Geçerli Bir Telefon Numarası Girin.",
+    "passwordError": "Lütfen geçerli bir Şifre girin.",
+    "signIn": "Giriş Yap",
+    "signUp": "Kaydol"
+}

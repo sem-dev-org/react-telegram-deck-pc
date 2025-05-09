@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "關閉",
+    "copy": "複製",
+    "copied": "已複製",
+    "noRecords": "尚無記錄",
+    "noTransactionRecords": "未找到交易記錄",
+    "noRolloverRecords": "未找到展期記錄",
+    "noBettingRecords": "未找到投注記錄",
+    "tryChangingFilter": "嘗試變更您的篩選器設定"
+  },
+  "tabs": {
+    "transactionHistory": "交易歷史",
+    "betHistory": "投注歷史",
+    "rollover": "側翻"
+  },
+  "filters": {
+    "all": "全部",
+    "allTypes": "所有類型",
+    "allStatuses": "所有狀態",
+    "allGames": "所有遊戲",
+    "allAssets": "所有資產",
+    "type": "類型",
+    "period": "期間",
+    "status": "狀態",
+    "asset": "資產",
+    "game": "遊戲 (Game)",
+    "currency": "貨幣",
+    "selectCurrency": "選擇貨幣",
+    "past24Hours": "過去 24 小時",
+    "past7Days": "過去 7 天",
+    "past30Days": "過去 30 天",
+    "past60Days": "過去 60 天",
+    "past90Days": "過去 90 天"
+  },
+  "transactionStatus": {
+    "pending": "待處理",
+    "completed": "已完成",
+    "cancelled": "已取消",
+    "success": "成功",
+    "failed": "失敗",
+    "expired": "已過期",
+    "processing": "處理中",
+    "unknown": "未知",
+    "notStarted": "試用成功開始",
+    "ongoing": "即將到來",
+    "done": "完成"
+  },
+  "transactionTypes": {
+    "deposit": "訂金",
+    "fiatDeposit": "菲亞特存款",
+    "cryptoDeposit": "加密貨幣存款",
+    "withdrawal": "退出",
+    "fiatWithdraw": "菲亞特提款",
+    "cryptoWithdraw": "加密貨幣提款",
+    "bonus": "獎金",
+    "win": "獎品",
+    "bet": "投注",
+    "refund": "退款",
+    "fiatDepositIssues": "法定存款問題或爭議",
+    "transaction": "交易"
+  },
+  "gameTypes": {
+    "slots": "人數",
+    "table": "表格",
+    "live": "線上",
+    "crash": "撞擊",
+    "sports": "運動",
+    "roulette": "輪盤賭",
+    "fishing": "釣魚",
+    "poker": "撲克牌",
+    "blockchain": "以太坊區塊鏈網路",
+    "keno": "Keno",
+    "show": "顯示",
+    "arcade": "街機",
+    "unknown": "未知遊戲"
+  },
+  "tableHeaders": {
+    "time": "時間",
+    "type": "類型",
+    "amount": "金額",
+    "status": "狀態",
+    "details": "詳細資料",
+    "game": "遊戲 (Game)",
+    "bet": "投注",
+    "betId": "投注 ID",
+    "gameProvider": "供應者",
+    "multiplier": "乘數",
+    "payout": "支付",
+    "actions": "動作",
+    "profit": "利潤",
+    "wager": "賭注"
+  },
+  "details": {
+    "title": "交易明細",
+    "paymentMethod": "付款方式",
+    "orderId": "訂單編號",
+    "transactionHash": "交易切細值",
+    "created": "建立於",
+    "transactionProgress": "交易進度",
+    "depositOrderCreated": "已建立存款訂單",
+    "gatewayConfirmation": "閘道確認",
+    "transactionCompleted": "交易完成",
+    "lastUpdate": "上次更新",
+    "expired": "此訂單已過期。如有其他問題，請聯絡我們。"
+  },
+  "betHistory": {
+    "winAmount": "贏取金額",
+    "betAmount": "投注金額"
+  },
+  "rollover": {
+    "wagerRequirement": "下注要求",
+    "remainingWager": "剩餘賭注",
+    "expireTime": "到期時間",
+    "rolloverType": "翻滾類型"
+  }
+}

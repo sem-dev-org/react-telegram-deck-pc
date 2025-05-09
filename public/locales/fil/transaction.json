@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Isara",
+    "copy": "Kopyahin",
+    "copied": "Kinopya",
+    "noRecords": "Walang nakitang mga tala",
+    "noTransactionRecords": "Walang nakitang mga talaan ng transaksyon",
+    "noRolloverRecords": "Walang nakitang rollover record",
+    "noBettingRecords": "Walang nakitang mga tala sa pagtaya",
+    "tryChangingFilter": "Subukang baguhin ang iyong mga setting ng filter"
+  },
+  "tabs": {
+    "transactionHistory": "Kasaysayan ng Transaksyon",
+    "betHistory": "Kasaysayan ng taya",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Lahat",
+    "allTypes": "Lahat ng Uri",
+    "allStatuses": "Lahat ng Status",
+    "allGames": "Lahat ng Laro",
+    "allAssets": "Lahat ng Asset",
+    "type": "Type",
+    "period": "Panahon",
+    "status": "Katayuan",
+    "asset": "Asset",
+    "game": "Laro",
+    "currency": "Pera",
+    "selectCurrency": "Piliin ang Pera",
+    "past24Hours": "Nakalipas na 24 Oras",
+    "past7Days": "Nakalipas na 7 Araw",
+    "past30Days": "Nakalipas na 30 Araw",
+    "past60Days": "Nakalipas na 60 Araw",
+    "past90Days": "Nakalipas na 90 Araw"
+  },
+  "transactionStatus": {
+    "pending": "Nakabinbin",
+    "completed": "Nakumpleto",
+    "cancelled": "Kinansela",
+    "success": "Tagumpay",
+    "failed": "Nabigo",
+    "expired": "Nag-expire na",
+    "processing": "Pinoproseso",
+    "unknown": "Hindi alam",
+    "notStarted": "Hindi Nagsimula",
+    "ongoing": "Patuloy",
+    "done": "Ginawa"
+  },
+  "transactionTypes": {
+    "deposit": "Deposito",
+    "fiatDeposit": "Fiat Deposito",
+    "cryptoDeposit": "Crypto Deposito",
+    "withdrawal": "Pag-withdraw",
+    "fiatWithdraw": "Pag-withdraw ng Fiat",
+    "cryptoWithdraw": "Pag-withdraw ng Crypto",
+    "bonus": "Bonus",
+    "win": "manalo",
+    "bet": "Taya",
+    "refund": "Refund",
+    "fiatDepositIssues": "Mga Isyu o Mga Pagtatalo sa Fiat Deposit",
+    "transaction": "Transaksyon"
+  },
+  "gameTypes": {
+    "slots": "Mga puwang",
+    "table": "mesa",
+    "live": "Mabuhay",
+    "crash": "Bumagsak",
+    "sports": "Palakasan",
+    "roulette": "Roulette",
+    "fishing": "Pangingisda",
+    "poker": "Poker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Ipakita",
+    "arcade": "Arcade",
+    "unknown": "Hindi Kilalang Laro"
+  },
+  "tableHeaders": {
+    "time": "Oras",
+    "type": "Type",
+    "amount": "Halaga",
+    "status": "Katayuan",
+    "details": "Mga Detalye",
+    "game": "Laro",
+    "bet": "Taya",
+    "betId": "ID ng taya",
+    "gameProvider": "Provider",
+    "multiplier": "Multiplier",
+    "payout": "Payout",
+    "actions": "Mga aksyon",
+    "profit": "Kita",
+    "wager": "Tumaya"
+  },
+  "details": {
+    "title": "Mga Detalye ng Transaksyon",
+    "paymentMethod": "Paraan ng Pagbabayad",
+    "orderId": "Order ID",
+    "transactionHash": "Hash ng Transaksyon",
+    "created": "Nilikha",
+    "transactionProgress": "Pag-unlad ng transaksyon",
+    "depositOrderCreated": "Nagawa ang Deposit Order",
+    "gatewayConfirmation": "Pagkumpirma ng Gateway",
+    "transactionCompleted": "Nakumpleto ang Transaksyon",
+    "lastUpdate": "Huling Update",
+    "expired": "Nag-expire na ang order na ito. Makipag-ugnayan sa amin kung mayroon kang anumang karagdagang katanungan."
+  },
+  "betHistory": {
+    "winAmount": "Halaga ng Panalo",
+    "betAmount": "Halaga ng taya"
+  },
+  "rollover": {
+    "wagerRequirement": "Kinakailangan sa Taya",
+    "remainingWager": "Natitirang Taya",
+    "expireTime": "Oras ng Pag-expire",
+    "rolloverType": "Uri ng Rollover"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "goBack": "Vissza",
+    "tryAgain": "Próbáld újra",
+    "retry": "Újra",
+    "retryConnection": "Kapcsolat újrakezdése",
+    "emptyStateNoContent": {
+        "title": "Itt még nincs semmi!",
+        "description": "Úgy néz ki, hogy most nincs itt tartalom. Nézz vissza később, vagy próbálj meg valami mást."
+    },
+    "failedToLoadPage": {
+        "title": "Valami rosszul sült el",
+        "description": "Az oldal betöltése során rendszerhiba történt. Kérjük, próbálja meg később újra, vagy lépjen kapcsolatba az ügyfélszolgálattal, ha a probléma továbbra is fennáll."
+    },
+    "otherActiveSession": {
+        "title": "Munkamenet hiba!",
+        "description": "A hozzáférés erről az eszközről biztonsági okokból jelenleg nem elérhető. Ennek oka lehet egy másik bejelentkezés vagy rendszerprobléma. Kérjük, próbálkozzon újra, vagy használjon másik eszközt."
+    },
+    "noInternetConnection": {
+        "title": "Hoppá! Offline vagy",
+        "description": "Úgy tűnik, nincs internetkapcsolat. Ellenőrizze a Wi-Fi vagy a mobiladatokat, és próbálja meg újra, amint újra online lesz."
+    },
+    "pageNotFound": {
+        "title": "Hoppá! Ez az oldal hiányzik",
+        "description": "Úgy tűnik, ez az oldal nem létezik, vagy áthelyezték. Próbáld meg ellenőrizni az URL-t, vagy menj haza."
+    },
+    "tooManyRequest": {
+        "title": "Tarts ki! Egy kicsit elfoglaltak vagyunk",
+        "description": "Úgy tűnik, hogy a szervereink mostanában sok mindent kezelnek. Adj egy percet, és próbáld meg újra."
+    },
+    "underMaintenance": {
+        "title": "Mindjárt visszajövünk!",
+        "description": "Néhány frissítést hajtunk végre, hogy a dolgok zökkenőmentesen működjenek. Nézz vissza hamarosan!"
+    },
+    "userRestriction": {
+        "title": "Hoppá! Nem férhetsz hozzá",
+        "description": "Úgy tűnik, nincs engedélyed a megtekintéshez. Ellenőrizze kétszer a hozzáférését, vagy kérjen segítséget."
+    }
+}

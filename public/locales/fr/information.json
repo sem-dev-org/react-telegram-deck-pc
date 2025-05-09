@@ -1,0 +1,38 @@
+{
+    "goBack": "Retour",
+    "tryAgain": "Essayer de nouveau",
+    "retry": "Réessayez",
+    "retryConnection": "Réessayer la connexion",
+    "emptyStateNoContent": {
+        "title": "Il n'y a encore rien ici !",
+        "description": "Il semble qu'il n'y ait pas de contenu ici pour le moment. Reviens plus tard ou essaie autre chose."
+    },
+    "failedToLoadPage": {
+        "title": "Quelque chose a mal tournée",
+        "description": "Une erreur système s'est produite lors du chargement de la page. Essaie à nouveau plus tard ou contacte l'assistance si le problème persiste."
+    },
+    "otherActiveSession": {
+        "title": "Erreur de session !",
+        "description": "L'accès à partir de cet appareil est actuellement indisponible pour des raisons de sécurité. Cela peut être dû à une autre connexion ou à un problème de système. Essaie à nouveau ou utilise un autre appareil."
+    },
+    "noInternetConnection": {
+        "title": "Oups ! Tu es hors ligne",
+        "description": "Il semble que tu ne sois pas connecté à Internet. Vérifie ton Wi-Fi ou tes données mobiles et réessaie une fois que tu seras à nouveau en ligne."
+    },
+    "pageNotFound": {
+        "title": "Oups ! Cette page est manquante",
+        "description": "On dirait que cette page n'existe pas ou qu'elle a été déplacée. Essaie de vérifier l'URL ou retourne à la maison."
+    },
+    "tooManyRequest": {
+        "title": "Tiens bon ! Nous sommes un peu occupés",
+        "description": "On dirait que nos serveurs sont très occupés en ce moment. Donne-toi un peu de temps et essaie à nouveau."
+    },
+    "underMaintenance": {
+        "title": "Nous revenons tout de suite !",
+        "description": "Nous faisons quelques mises à jour pour que tout se passe bien. Reviens nous voir bientôt !"
+    },
+    "userRestriction": {
+        "title": "Oups ! Tu ne peux pas y accéder",
+        "description": "Il semble que tu n'aies pas la permission de voir ceci. Vérifie ton accès ou demande de l'aide."
+    }
+}

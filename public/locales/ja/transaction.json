@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "閉じる",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "noRecords": "記録が見つかりません",
+    "noTransactionRecords": "取引記録が見つかりません",
+    "noRolloverRecords": "ロールオーバーの記録は見つからなかった",
+    "noBettingRecords": "ベッティング記録なし",
+    "tryChangingFilter": "フィルターの設定を変更してみる"
+  },
+  "tabs": {
+    "transactionHistory": "トランザクション履歴",
+    "betHistory": "ベットの歴史",
+    "rollover": "ロールオーバー"
+  },
+  "filters": {
+    "all": "すべて",
+    "allTypes": "すべてのタイプ",
+    "allStatuses": "ステータス一覧",
+    "allGames": "すべてのゲーム",
+    "allAssets": "全資産",
+    "type": "タイプ",
+    "period": "期間",
+    "status": "ステータス",
+    "asset": "資産",
+    "game": "ゲーム",
+    "currency": "通貨",
+    "selectCurrency": "通貨を選択",
+    "past24Hours": "過去24時間",
+    "past7Days": "過去7日間",
+    "past30Days": "過去30日間",
+    "past60Days": "過去60日間",
+    "past90Days": "過去90日間"
+  },
+  "transactionStatus": {
+    "pending": "保留中",
+    "completed": "完了",
+    "cancelled": "キャンセル",
+    "success": "成功",
+    "failed": "失敗",
+    "expired": "期限切れ",
+    "processing": "処理中",
+    "unknown": "不明",
+    "notStarted": "開始していません",
+    "ongoing": "継続中",
+    "done": "完了"
+  },
+  "transactionTypes": {
+    "deposit": "デポジット",
+    "fiatDeposit": "フィアット預金",
+    "cryptoDeposit": "暗号預金",
+    "withdrawal": "換金申請",
+    "fiatWithdraw": "フィアット撤退",
+    "cryptoWithdraw": "暗号出金",
+    "bonus": "ボーナス",
+    "win": "勝利",
+    "bet": "ベット",
+    "refund": "返金",
+    "fiatDepositIssues": "フィアット・デポジットの問題または紛争",
+    "transaction": "トランザクション"
+  },
+  "gameTypes": {
+    "slots": "時間枠",
+    "table": "テーブル",
+    "live": "ライブ",
+    "crash": "クラッシュ",
+    "sports": "スポーツ",
+    "roulette": "ルーレット",
+    "fishing": "釣り",
+    "poker": "ポーカー",
+    "blockchain": "ブロックチェーン",
+    "keno": "ケノ",
+    "show": "表示",
+    "arcade": "アーケード",
+    "unknown": "未知のゲーム"
+  },
+  "tableHeaders": {
+    "time": "時間",
+    "type": "タイプ",
+    "amount": "金額",
+    "status": "ステータス",
+    "details": "詳細",
+    "game": "ゲーム",
+    "bet": "ベット",
+    "betId": "ベットID",
+    "gameProvider": "プロバイダー",
+    "multiplier": "マルチプレイヤー",
+    "payout": "支払い",
+    "actions": "アクション",
+    "profit": "利益",
+    "wager": "賭け"
+  },
+  "details": {
+    "title": "取引詳細",
+    "paymentMethod": "支払い方法",
+    "orderId": "注文ID",
+    "transactionHash": "トランザクション・ハッシュ",
+    "created": "作成日",
+    "transactionProgress": "取引の進捗状況",
+    "depositOrderCreated": "預金注文の作成",
+    "gatewayConfirmation": "ゲートウェイ確認",
+    "transactionCompleted": "取引完了",
+    "lastUpdate": "最終更新日",
+    "expired": "この注文は有効期限が切れています。ご不明な点がございましたらお問い合わせください。"
+  },
+  "betHistory": {
+    "winAmount": "勝利金額",
+    "betAmount": "ベット額"
+  },
+  "rollover": {
+    "wagerRequirement": "賭け条件",
+    "remainingWager": "残りの賭け金",
+    "expireTime": "期限",
+    "rolloverType": "ロールオーバー・タイプ"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "goBack": "Atgal",
+    "tryAgain": "Pabandykite dar kartą",
+    "retry": "Bandyti vėl",
+    "retryConnection": "Pakartoti ryšį",
+    "emptyStateNoContent": {
+        "title": "Čia dar nieko nėra!",
+        "description": "Atrodo, kad dabar čia nėra turinio. Grįžkite vėliau arba pabandykite ką nors kita."
+    },
+    "failedToLoadPage": {
+        "title": "Kažkas nutiko ne taip",
+        "description": "Įkeliant puslapį įvyko sistemos klaida. Jei problema išlieka, pabandykite vėliau arba kreipkitės į palaikymo tarnybą."
+    },
+    "otherActiveSession": {
+        "title": "Sesijos klaida!",
+        "description": "Šiuo metu prieiga iš šio įrenginio dėl saugumo sumetimų yra neprieinama. Tai gali būti dėl kito prisijungimo arba sistemos problemos. Bandykite dar kartą arba naudokite kitą prietaisą."
+    },
+    "noInternetConnection": {
+        "title": "Ups! Jūs esate neprisijungęs prie interneto",
+        "description": "Atrodo, kad nesate prisijungę prie interneto. Patikrinkite savo \"Wi-Fi\" arba mobiliuosius duomenis ir bandykite vėl prisijungti prie interneto."
+    },
+    "pageNotFound": {
+        "title": "Ups! Šio puslapio nėra",
+        "description": "Atrodo, kad šis puslapis neegzistuoja arba buvo perkeltas. Pabandykite patikrinti URL arba grįžkite namo."
+    },
+    "tooManyRequest": {
+        "title": "Laikykitės tvirtai! Esame šiek tiek užsiėmę",
+        "description": "Atrodo, kad mūsų serveriai dabar daug dirba. Palaukite akimirkos ir pabandykite dar kartą."
+    },
+    "underMaintenance": {
+        "title": "Mes tuoj grįšime!",
+        "description": "Atliekame keletą atnaujinimų, kad viskas veiktų sklandžiai. Netrukus apsilankykite!"
+    },
+    "userRestriction": {
+        "title": "Ups! Jūs negalite prieiti prie šio",
+        "description": "Atrodo, kad neturite leidimo tai peržiūrėti. Dar kartą patikrinkite savo prieigą arba kreipkitės pagalbos."
+    }
+}

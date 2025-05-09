@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Đóng",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép",
+    "noRecords": "Không tìm thấy bản ghi nào",
+    "noTransactionRecords": "Không tìm thấy hồ sơ giao dịch",
+    "noRolloverRecords": "Không tìm thấy hồ sơ chuyển nhượng",
+    "noBettingRecords": "Không tìm thấy hồ sơ cá cược",
+    "tryChangingFilter": "Hãy thử thay đổi cài đặt bộ lọc của bạn"
+  },
+  "tabs": {
+    "transactionHistory": "Lịch sử giao dịch",
+    "betHistory": "Lịch sử cược",
+    "rollover": "Thanh cuốn"
+  },
+  "filters": {
+    "all": "Tất cả các",
+    "allTypes": "Tất cả các loại",
+    "allStatuses": "Tất cả trạng thái",
+    "allGames": "Tất cả trò chơi",
+    "allAssets": "Tất cả tài sản",
+    "type": "Loại",
+    "period": "Giai đoạn",
+    "status": "Trạng thái",
+    "asset": "Tài sản",
+    "game": "Trò chơi",
+    "currency": "Tiền tệ",
+    "selectCurrency": "Chọn loại tiền tệ",
+    "past24Hours": "24 giờ qua",
+    "past7Days": "7 ngày qua",
+    "past30Days": "30 ngày qua",
+    "past60Days": "60 ngày qua",
+    "past90Days": "90 ngày qua"
+  },
+  "transactionStatus": {
+    "pending": "Đang chờ xử lý",
+    "completed": "Đã hoàn thành",
+    "cancelled": "Đã hủy",
+    "success": "Thành công",
+    "failed": "Thất bại",
+    "expired": "Đã hết hạn",
+    "processing": "Đang xử lý",
+    "unknown": "Không xác định",
+    "notStarted": "Chưa bắt đầu",
+    "ongoing": "Đang cập nhật",
+    "done": "Xong"
+  },
+  "transactionTypes": {
+    "deposit": "Đặt cọc",
+    "fiatDeposit": "Tiền gửi Fiat",
+    "cryptoDeposit": "Tiền gửi tiền điện tử",
+    "withdrawal": "Rút tiền",
+    "fiatWithdraw": "Rút tiền Fiat",
+    "cryptoWithdraw": "Rút tiền mã hóa",
+    "bonus": "Thưởng",
+    "win": "Win",
+    "bet": "Đặt cược",
+    "refund": "Hoàn tiền",
+    "fiatDepositIssues": "Các vấn đề hoặc tranh chấp về tiền gửi Fiat",
+    "transaction": "Giao dịch"
+  },
+  "gameTypes": {
+    "slots": "1 lốt, vị trí",
+    "table": "Bảng",
+    "live": "Trực tiếp",
+    "crash": "Tai nạn",
+    "sports": "Thể thao",
+    "roulette": "Cò quay",
+    "fishing": "Câu Cá",
+    "poker": "Xì tố",
+    "blockchain": "Chuỗi khối",
+    "keno": "Keno",
+    "show": "Hiển thị",
+    "arcade": "Trò chơi điện tử",
+    "unknown": "Trò chơi không xác định"
+  },
+  "tableHeaders": {
+    "time": "Thời gian",
+    "type": "Loại",
+    "amount": "Số tiền",
+    "status": "Trạng thái",
+    "details": "Chi tiết",
+    "game": "Trò chơi",
+    "bet": "Đặt cược",
+    "betId": "Mã cược",
+    "gameProvider": "Nhà cung cấp",
+    "multiplier": "Số nhân",
+    "payout": "Thanh toán",
+    "actions": "Hành động",
+    "profit": "Lợi nhuận",
+    "wager": "Cược"
+  },
+  "details": {
+    "title": "Chi tiết giao dịch",
+    "paymentMethod": "Phương thức thanh toán",
+    "orderId": "ID đơn hàng",
+    "transactionHash": "Giao dịch băm",
+    "created": "Đã tạo",
+    "transactionProgress": "Tiến trình giao dịch",
+    "depositOrderCreated": "Đã tạo lệnh gửi tiền",
+    "gatewayConfirmation": "Xác nhận cổng",
+    "transactionCompleted": "Giao dịch đã hoàn tất",
+    "lastUpdate": "Cập nhật Cuối cùng",
+    "expired": "Đơn hàng này đã hết hạn. Hãy liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào khác."
+  },
+  "betHistory": {
+    "winAmount": "Số tiền thắng",
+    "betAmount": "Số tiền cược"
+  },
+  "rollover": {
+    "wagerRequirement": "Yêu cầu đặt cược",
+    "remainingWager": "Tiền cược còn lại",
+    "expireTime": "Thời gian hết hạn",
+    "rolloverType": "Loại chuyển đổi"
+  }
+}

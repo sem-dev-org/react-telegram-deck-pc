@@ -1,0 +1,16 @@
+{
+    "emailError": "Please Enter a valid Email.",
+    "phoneError": "Please Enter a valid Phone Number.",
+    "passwordError": "Please Enter a valid Password.",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "logInDirectlyWith": "Log in directly with",
+    "emailOrPhoneNumber": "Email or Phone Number",
+    "password": "Password",
+    "passwordErrorOne": "Password must be at least 6 characters long.",
+    "forgotPassword": "Forgot your password?",
+    "userAgreement": "Please consent to our user agreement",
+    "userAgreementConfirm": "I agree to User Agreement & confirm I am at least 18 years old",
+    "marketingPromotions": "I agree to receive marketing promotions from Betfrom.com",
+    "phoneNumberAlreadyRegistered": "Phone number already registered"
+ }

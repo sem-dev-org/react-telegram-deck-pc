@@ -1,0 +1,38 @@
+{
+    "goBack": "Iet atpakaļ",
+    "tryAgain": "Mēģiniet vēlreiz",
+    "retry": "Mēģinat vēlreiz",
+    "retryConnection": "Savienojuma atkārtošana",
+    "emptyStateNoContent": {
+        "title": "Šeit vēl nekā nav!",
+        "description": "Izskatās, ka šobrīd šeit nav satura. Pārbaudiet vēlāk vai izmēģiniet ko citu."
+    },
+    "failedToLoadPage": {
+        "title": "Kaut kas notika nepareizi",
+        "description": "Iekraujot lapu, radās sistēmas kļūda. Lūdzu, mēģiniet vēlreiz vēlāk vai sazinieties ar atbalsta dienestu, ja problēma joprojām pastāv."
+    },
+    "otherActiveSession": {
+        "title": "Sesijas kļūda!",
+        "description": "Piekļuve no šīs ierīces pašlaik nav pieejama drošības apsvērumu dēļ. Tas var būt saistīts ar citu pieteikšanos vai sistēmas problēmu. Lūdzu, mēģiniet vēlreiz vai izmantojiet citu ierīci."
+    },
+    "noInternetConnection": {
+        "title": "Ak! Jūs esat bezsaistes režīmā",
+        "description": "Izskatās, ka neesat pieslēdzies internetam. Pārbaudiet savu Wi-Fi vai mobilo datu savienojumu un mēģiniet vēlreiz, kad atkal būsiet tiešsaistē."
+    },
+    "pageNotFound": {
+        "title": "Ak! Šī lapa ir pazudusi",
+        "description": "Izskatās, ka šī lapa neeksistē vai ir pārvietota. Mēģiniet pārbaudīt URL vai atgriezties mājās."
+    },
+    "tooManyRequest": {
+        "title": "Turieties cieši! Mēs esam mazliet aizņemti",
+        "description": "Izskatās, ka mūsu serveri šobrīd daudz strādā. Dodiet tam brīdi un mēģiniet vēlreiz."
+    },
+    "underMaintenance": {
+        "title": "Mēs tūlīt atgriezīsimies!",
+        "description": "Mēs veicam dažus atjauninājumus, lai nodrošinātu vienmērīgu darbību. Pārbaudiet drīzumā!"
+    },
+    "userRestriction": {
+        "title": "Ak! Jūs nevarat piekļūt šim",
+        "description": "Izskatās, ka jums nav atļaujas to skatīt. Pārbaudiet savu piekļuvi vai sazinieties ar palīdzības dienestu."
+    }
+}

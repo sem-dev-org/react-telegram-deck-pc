@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Zapri",
+    "copy": "Kopiraj",
+    "copied": "Kopirano",
+    "noRecords": "Ni najdenih zapisov",
+    "noTransactionRecords": "Ni bilo najdenih zapisov o transakcijah",
+    "noRolloverRecords": "Ni bilo najdenih zapisov o prevračanju",
+    "noBettingRecords": "Ni najdenih zapisov o stavah",
+    "tryChangingFilter": "Poskusite spremeniti nastavitve filtra"
+  },
+  "tabs": {
+    "transactionHistory": "Zgodovina transakcij",
+    "betHistory": "Zgodovina stav",
+    "rollover": "Prevračanje"
+  },
+  "filters": {
+    "all": "Vse",
+    "allTypes": "Vsi tipi",
+    "allStatuses": "Vsa stanja",
+    "allGames": "Vse igre",
+    "allAssets": "Vsa sredstva",
+    "type": "Vrsta",
+    "period": "Obdobje",
+    "status": "Stanje",
+    "asset": "Sredstvo",
+    "game": "Igra",
+    "currency": "Valuta",
+    "selectCurrency": "Izberite valuto",
+    "past24Hours": "Zadnjih 24 ur",
+    "past7Days": "Zadnjih 7 dni",
+    "past30Days": "Preteklih 30 dni",
+    "past60Days": "Preteklih 60 dni",
+    "past90Days": "Preteklih 90 dni"
+  },
+  "transactionStatus": {
+    "pending": "In sospeso",
+    "completed": "Zaključeno",
+    "cancelled": "Preklicano",
+    "success": "Uspešno",
+    "failed": "Neuspešno",
+    "expired": "Poteklo",
+    "processing": "V obdelavi",
+    "unknown": "Neznano",
+    "notStarted": "Ni začeto",
+    "ongoing": "V teku",
+    "done": "Končano"
+  },
+  "transactionTypes": {
+    "deposit": "Depozit",
+    "fiatDeposit": "Depozit Fiat",
+    "cryptoDeposit": "Kripto depozit",
+    "withdrawal": "Umik",
+    "fiatWithdraw": "Umik družbe Fiat",
+    "cryptoWithdraw": "Umik kriptovalut",
+    "bonus": "Bonus",
+    "win": "Win",
+    "bet": "Stava",
+    "refund": "Povračilo denarja",
+    "fiatDepositIssues": "Vprašanja ali spori v zvezi z depozitom fiat",
+    "transaction": "Transakcija"
+  },
+  "gameTypes": {
+    "slots": "Igralni avtomati",
+    "table": "Tabela",
+    "live": "V Živo",
+    "crash": "Crash",
+    "sports": "Šport",
+    "roulette": "Ruleta",
+    "fishing": "Ribolov",
+    "poker": "Poker",
+    "blockchain": "Igre z veriženjem blokov",
+    "keno": "Keno",
+    "show": "Prikaži",
+    "arcade": "Arcade",
+    "unknown": "Neznana igra"
+  },
+  "tableHeaders": {
+    "time": "Čas",
+    "type": "Vrsta",
+    "amount": "Znesek",
+    "status": "Stanje",
+    "details": "Podrobnosti",
+    "game": "Igra",
+    "bet": "Stava",
+    "betId": "ID stave",
+    "gameProvider": "Ponudnik",
+    "multiplier": "Množitelj",
+    "payout": "Izplačila",
+    "actions": "Dejanja",
+    "profit": "Dobiček",
+    "wager": "Stava"
+  },
+  "details": {
+    "title": "Podrobnosti transakcije",
+    "paymentMethod": "Plačilno sredstvo",
+    "orderId": "ID naročila",
+    "transactionHash": "Transakcija Hash",
+    "created": "Ustvarjeno",
+    "transactionProgress": "Potek transakcije",
+    "depositOrderCreated": "Ustvarjen nalog za polog",
+    "gatewayConfirmation": "Potrditev prehoda",
+    "transactionCompleted": "Zaključena transakcija",
+    "lastUpdate": "Zadnja posodobitev",
+    "expired": "To naročilo je poteklo. Če imate dodatna vprašanja, se obrnite na nas."
+  },
+  "betHistory": {
+    "winAmount": "Zmagovalni znesek",
+    "betAmount": "Znesek stave"
+  },
+  "rollover": {
+    "wagerRequirement": "Zahteva za stavo",
+    "remainingWager": "Preostala stava",
+    "expireTime": "Čas izteka veljavnosti",
+    "rolloverType": "Vrsta prevračanja"
+  }
+}

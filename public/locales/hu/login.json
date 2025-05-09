@@ -1,0 +1,7 @@
+{
+    "emailError": "Kérjük, adjon meg egy érvényes e-mailt.",
+    "phoneError": "Kérjük, adjon meg egy érvényes telefonszámot.",
+    "passwordError": "Kérjük, adjon meg egy érvényes jelszót.",
+    "signIn": "Bejelentkezés",
+    "signUp": "Regisztráció"
+}

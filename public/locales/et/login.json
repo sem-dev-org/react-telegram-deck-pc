@@ -1,0 +1,7 @@
+{
+    "emailError": "Palun sisestage kehtiv e-posti aadress.",
+    "phoneError": "Palun sisestage kehtiv telefoninumber.",
+    "passwordError": "Palun sisestage kehtiv salasõna.",
+    "signIn": "Logi sisse",
+    "signUp": "Liitu"
+}

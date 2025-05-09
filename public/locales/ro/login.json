@@ -1,0 +1,7 @@
+{
+    "emailError": "Vă rugăm să introduceți un e-mail valid.",
+    "phoneError": "Vă rugăm să introduceți un număr de telefon valid.",
+    "passwordError": "Vă rugăm să introduceți o parolă validă.",
+    "signIn": "Autentificare",
+    "signUp": "Înregistrare"
+}

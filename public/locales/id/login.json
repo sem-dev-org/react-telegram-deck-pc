@@ -1,0 +1,7 @@
+{
+    "emailError": "Masukkan Email yang valid.",
+    "phoneError": "Masukkan Nomor Telepon yang valid.",
+    "passwordError": "Masukkan Kata Sandi yang valid.",
+    "signIn": "Masuk",
+    "signUp": "Daftar"
+}

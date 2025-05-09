@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "إغلاق",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "noRecords": "لا توجد سجلات",
+    "noTransactionRecords": "لم يتم العثور على سجلات معاملات",
+    "noRolloverRecords": "لم يتم العثور على أي سجلات تمديد",
+    "noBettingRecords": "لم يتم العثور على سجلات مراهنات",
+    "tryChangingFilter": "حاول تغيير إعدادات الفلتر"
+  },
+  "tabs": {
+    "transactionHistory": "سجل المعاملات",
+    "betHistory": "تاريخ الرهان",
+    "rollover": "التمديد"
+  },
+  "filters": {
+    "all": "الكل",
+    "allTypes": "جميع الأنواع",
+    "allStatuses": "كل الحالات",
+    "allGames": "كل الألعاب",
+    "allAssets": "جميع الأصول",
+    "type": "النوع",
+    "period": "الفترة",
+    "status": "الحالة",
+    "asset": "أصل",
+    "game": "لعبة",
+    "currency": "العملة",
+    "selectCurrency": "اختر العملة",
+    "past24Hours": "الـ 24 ساعة الماضية",
+    "past7Days": "الأيام السبعة الماضية",
+    "past30Days": "اخر 30 يوم",
+    "past60Days": "الـ 60 يوماً الماضية",
+    "past90Days": "ال 90 يوماً الماضية"
+  },
+  "transactionStatus": {
+    "pending": "قيد الانتظار",
+    "completed": "مكتمل",
+    "cancelled": "ملغى",
+    "success": "نجاح",
+    "failed": "فشل",
+    "expired": "منتهي",
+    "processing": "معالجة",
+    "unknown": "غير معروف",
+    "notStarted": "لم يبدأ ",
+    "ongoing": "جارية الان",
+    "done": "تم"
+  },
+  "transactionTypes": {
+    "deposit": "ايداع",
+    "fiatDeposit": "وديعة فيات",
+    "cryptoDeposit": "إيداع العملات المشفرة",
+    "withdrawal": "سحب",
+    "fiatWithdraw": "سحب فيات",
+    "cryptoWithdraw": "سحب العملات المشفرة",
+    "bonus": "مكافأة",
+    "win": "اربح ",
+    "bet": "الرهان",
+    "refund": "إعادة المبلغ",
+    "fiatDepositIssues": "قضايا أو نزاعات الودائع الورقية",
+    "transaction": "المعاملة"
+  },
+  "gameTypes": {
+    "slots": "فترات الزمنية",
+    "table": "جدول",
+    "live": "مباشر",
+    "crash": "تحطم",
+    "sports": "رياضة",
+    "roulette": "الروليت",
+    "fishing": "صيد السمك",
+    "poker": "بوكر",
+    "blockchain": "البلوك تشين",
+    "keno": "كينو",
+    "show": "عرض",
+    "arcade": "ممر مسقوف",
+    "unknown": "لعبة غير معروفة"
+  },
+  "tableHeaders": {
+    "time": "الوقت",
+    "type": "النوع",
+    "amount": "الكمية",
+    "status": "الحالة",
+    "details": "تفاصيل",
+    "game": "لعبة",
+    "bet": "الرهان",
+    "betId": "معرّف الرهان",
+    "gameProvider": "المزود",
+    "multiplier": "المضاعف",
+    "payout": "دفعة",
+    "actions": "الإجراءات",
+    "profit": "الارباح",
+    "wager": "الرهان"
+  },
+  "details": {
+    "title": "تفاصيل المعاملة",
+    "paymentMethod": "طريقة الدفع",
+    "orderId": "رقم التعريف الخاص بالطلب",
+    "transactionHash": "تجزئة المعاملات",
+    "created": "تم الإنشاء",
+    "transactionProgress": "سير المعاملات",
+    "depositOrderCreated": "تم إنشاء أمر إيداع",
+    "gatewayConfirmation": "تأكيد البوابة",
+    "transactionCompleted": "اكتملت المعاملة",
+    "lastUpdate": "آخر تحديث",
+    "expired": "انتهت صلاحية هذا الطلب. اتصل بنا إذا كان لديك أي أسئلة أخرى."
+  },
+  "betHistory": {
+    "winAmount": "مبلغ الفوز",
+    "betAmount": "مبلغ الرهان"
+  },
+  "rollover": {
+    "wagerRequirement": "متطلبات الرهان",
+    "remainingWager": "الرهان المتبقي",
+    "expireTime": "تاريخ الإنتهاء",
+    "rolloverType": "نوع التمديد"
+  }
+}

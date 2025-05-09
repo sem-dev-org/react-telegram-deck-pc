@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Zatvoriť",
+    "copy": "Kopírovať",
+    "copied": "Skopírované",
+    "noRecords": "Nenašli sa žiadne záznamy",
+    "noTransactionRecords": "Nenašli sa žiadne záznamy o transakciách",
+    "noRolloverRecords": "Nenašli sa žiadne záznamy o prevrátení",
+    "noBettingRecords": "Nenašli sa žiadne záznamy o stávkovaní",
+    "tryChangingFilter": "Skúste zmeniť nastavenia filtra"
+  },
+  "tabs": {
+    "transactionHistory": "História transakcií",
+    "betHistory": "História stávok",
+    "rollover": "Prevrátenie"
+  },
+  "filters": {
+    "all": "Všetko",
+    "allTypes": "Všetky druhy",
+    "allStatuses": "Všetky stavy",
+    "allGames": "Všetky hry",
+    "allAssets": "Všetky aktíva",
+    "type": "Typ",
+    "period": "Perióda",
+    "status": "Stav",
+    "asset": "Majetok",
+    "game": "Hry",
+    "currency": "Mena",
+    "selectCurrency": "Vybrať základnú menu",
+    "past24Hours": "Uplynulých 24 hodín",
+    "past7Days": "Posledných 7 dní",
+    "past30Days": "Posledných 30 dní",
+    "past60Days": "Uplynulých 60 dní",
+    "past90Days": "Posledných 90 dní"
+  },
+  "transactionStatus": {
+    "pending": "Čakajúce",
+    "completed": "Dokončené",
+    "cancelled": "Zrušené",
+    "success": "Úspech",
+    "failed": "Neúspešné",
+    "expired": "Vypršala",
+    "processing": "Spracováva sa",
+    "unknown": "Neznáme",
+    "notStarted": "Nezačaté",
+    "ongoing": "Prebieha",
+    "done": "Hotovo"
+  },
+  "transactionTypes": {
+    "deposit": "Záloha",
+    "fiatDeposit": "Záloha Fiat",
+    "cryptoDeposit": "Kryptografický vklad",
+    "withdrawal": "Výber",
+    "fiatWithdraw": "Fiat stiahnuť",
+    "cryptoWithdraw": "Stiahnutie kryptografických prostriedkov",
+    "bonus": "Bonus",
+    "win": "Win",
+    "bet": "Staviť sa",
+    "refund": "Refundácia",
+    "fiatDepositIssues": "Problémy alebo spory týkajúce sa vkladov Fiat",
+    "transaction": "Transakcia"
+  },
+  "gameTypes": {
+    "slots": "Sloty",
+    "table": "Tabuľka",
+    "live": "Naživo",
+    "crash": "Crash",
+    "sports": "Športy",
+    "roulette": "Ruleta",
+    "fishing": "Rybolov",
+    "poker": "Poker",
+    "blockchain": "Blockchain hry",
+    "keno": "Keno",
+    "show": "Zobraziť",
+    "arcade": "Arkáda",
+    "unknown": "Neznáma hra"
+  },
+  "tableHeaders": {
+    "time": "Čas",
+    "type": "Typ",
+    "amount": "Suma",
+    "status": "Stav",
+    "details": "Podrobnosti",
+    "game": "Hry",
+    "bet": "Staviť sa",
+    "betId": "ID stávky",
+    "gameProvider": "Poskytovateľ",
+    "multiplier": "Násobiteľ",
+    "payout": "Výplata",
+    "actions": "Akcie",
+    "profit": "Zisk",
+    "wager": "Stávka"
+  },
+  "details": {
+    "title": "Detaily transakcie",
+    "paymentMethod": "Spôsob platby",
+    "orderId": "Číslo objednávky",
+    "transactionHash": "Transakcia Hash",
+    "created": "Vytvorené",
+    "transactionProgress": "Priebeh transakcie",
+    "depositOrderCreated": "Vytvorený príkaz na vklad",
+    "gatewayConfirmation": "Potvrdenie brány",
+    "transactionCompleted": "Ukončená transakcia",
+    "lastUpdate": "Posledná aktualizácia",
+    "expired": "Platnosť tejto objednávky uplynula. Ak máte ďalšie otázky, kontaktujte nás."
+  },
+  "betHistory": {
+    "winAmount": "Výška výhry",
+    "betAmount": "Výška stávky"
+  },
+  "rollover": {
+    "wagerRequirement": "Požiadavka na stávku",
+    "remainingWager": "Zostávajúca stávka",
+    "expireTime": "Čas vypršania platnosti",
+    "rolloverType": "Typ prevrátenia"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Bezár",
+    "copy": "Másolás",
+    "copied": "Másolva",
+    "noRecords": "Nem található rekord",
+    "noTransactionRecords": "Nem talált tranzakciós rekordok",
+    "noRolloverRecords": "Nem találtunk rollover rekordokat",
+    "noBettingRecords": "Nem találtunk fogadási rekordot",
+    "tryChangingFilter": "Próbálja meg megváltoztatni a szűrő beállításait"
+  },
+  "tabs": {
+    "transactionHistory": "Tranzakciótörténet",
+    "betHistory": "Fogadás története",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Összes",
+    "allTypes": "Összes típus",
+    "allStatuses": "Összes státusz",
+    "allGames": "Minden játék",
+    "allAssets": "Minden eszköz",
+    "type": "Típus",
+    "period": "Periódus",
+    "status": "Állapot",
+    "asset": "Tárgyi eszköz",
+    "game": "Játék",
+    "currency": "Pénznem",
+    "selectCurrency": "Pénznem címke",
+    "past24Hours": "Az elmúlt 24 óra",
+    "past7Days": "Az elmúlt 7 napban",
+    "past30Days": "Az elmúlt 30 napban",
+    "past60Days": "Elmúlt 60 nap",
+    "past90Days": "Elmúlt 90 nap"
+  },
+  "transactionStatus": {
+    "pending": "Függőben",
+    "completed": "Teljesítve",
+    "cancelled": "Törölve",
+    "success": "Sikeres",
+    "failed": "Sikertelen",
+    "expired": "Lejárt",
+    "processing": "Folyamatban",
+    "unknown": "Ismeretlen",
+    "notStarted": "Kezdésre vár",
+    "ongoing": "Folyamatban lévő",
+    "done": "Kész"
+  },
+  "transactionTypes": {
+    "deposit": "Letét",
+    "fiatDeposit": "Fiat betét",
+    "cryptoDeposit": "Kripto betét",
+    "withdrawal": "Visszalépés",
+    "fiatWithdraw": "Fiat Visszavonás",
+    "cryptoWithdraw": "Crypto Visszavétel",
+    "bonus": "Bónusz",
+    "win": "Nyerjen",
+    "bet": "Fogadás",
+    "refund": "Visszatérítés",
+    "fiatDepositIssues": "Fiat betéttel kapcsolatos kérdések vagy viták",
+    "transaction": "Tranzakció"
+  },
+  "gameTypes": {
+    "slots": "Rések",
+    "table": "Táblázat",
+    "live": "Élő",
+    "crash": "Crash",
+    "sports": "Sportok",
+    "roulette": "Rulett",
+    "fishing": "Halászat",
+    "poker": "Póker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Megjelenítés",
+    "arcade": "Arcade",
+    "unknown": "Ismeretlen játék"
+  },
+  "tableHeaders": {
+    "time": "Idő",
+    "type": "Típus",
+    "amount": "Összeg",
+    "status": "Állapot",
+    "details": "Részletek",
+    "game": "Játék",
+    "bet": "Fogadás",
+    "betId": "Fogadás azonosító",
+    "gameProvider": "Szolgáltató",
+    "multiplier": "Szorzó",
+    "payout": "Kifizetés",
+    "actions": "Műveletek",
+    "profit": "Profit",
+    "wager": "Fogadás"
+  },
+  "details": {
+    "title": "Tranzakció részletek",
+    "paymentMethod": "Fizetési mód",
+    "orderId": "Megrendelés azonosító",
+    "transactionHash": "Tranzakció Hash",
+    "created": "Létrehozva",
+    "transactionProgress": "Tranzakció előrehaladása",
+    "depositOrderCreated": "Létrehozott letéti megbízás",
+    "gatewayConfirmation": "Átjáró megerősítés",
+    "transactionCompleted": "Befejezett tranzakció",
+    "lastUpdate": "Utolsó frissítés",
+    "expired": "Ez a megrendelés lejárt. Lépjen kapcsolatba velünk, ha további kérdése van."
+  },
+  "betHistory": {
+    "winAmount": "Nyeremény összege",
+    "betAmount": "Tét összege"
+  },
+  "rollover": {
+    "wagerRequirement": "Tétkövetelmény",
+    "remainingWager": "Maradék fogadás",
+    "expireTime": "Lejárat ideje",
+    "rolloverType": "Rollover típus"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "emailError": "Prosimo, vnesite veljavno e-pošto.",
+    "phoneError": "Vnesite veljavno telefonsko številko.",
+    "passwordError": "Vnesite veljavno geslo.",
+    "signIn": "Prijava",
+    "signUp": "Registrirajte se"
+}

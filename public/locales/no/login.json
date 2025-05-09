@@ -1,0 +1,7 @@
+{
+    "emailError": "Vennligst skriv inn en gyldig e-post.",
+    "phoneError": "Vennligst skriv inn et gyldig telefonnummer.",
+    "passwordError": "Vennligst skriv inn et gyldig passord.",
+    "signIn": "Logg inn",
+    "signUp": "Meld deg inn"
+}

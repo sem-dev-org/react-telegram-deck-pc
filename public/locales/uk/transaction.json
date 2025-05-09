@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Закрити",
+    "copy": "Копіювати",
+    "copied": "Скопійовано",
+    "noRecords": "Записів не знайдено",
+    "noTransactionRecords": "Записи про транзакції не знайдено",
+    "noRolloverRecords": "Записів про перекидання не знайдено",
+    "noBettingRecords": "Записів ставок не знайдено",
+    "tryChangingFilter": "Спробуйте змінити налаштування фільтра"
+  },
+  "tabs": {
+    "transactionHistory": "Історія транзакцій",
+    "betHistory": "Історія ставок",
+    "rollover": "Перекидання"
+  },
+  "filters": {
+    "all": "Всі",
+    "allTypes": "Всі типи",
+    "allStatuses": "Всі статуси",
+    "allGames": "Всі ігри",
+    "allAssets": "Всі активи",
+    "type": "Тип",
+    "period": "Період",
+    "status": "Статус",
+    "asset": "Актив",
+    "game": "Гра",
+    "currency": "Валюта",
+    "selectCurrency": "Вибрати валюту",
+    "past24Hours": "Останні 24 години",
+    "past7Days": "Останні 7 днів",
+    "past30Days": "Останні 30 днів",
+    "past60Days": "Останні 60 днів",
+    "past90Days": "Останні 90 днів"
+  },
+  "transactionStatus": {
+    "pending": "В очікуванні",
+    "completed": "Завершено",
+    "cancelled": "Скасовано",
+    "success": "Успіх",
+    "failed": "Невдало",
+    "expired": "Закінчився",
+    "processing": "В обробці",
+    "unknown": "Невідомо",
+    "notStarted": "Не розпочато",
+    "ongoing": "Тривають",
+    "done": "Готово"
+  },
+  "transactionTypes": {
+    "deposit": "Депозит",
+    "fiatDeposit": "Депозит у фіатній валюті",
+    "cryptoDeposit": "Криптовалютний депозит",
+    "withdrawal": "Виведення коштів",
+    "fiatWithdraw": "Fiat Відкликання",
+    "cryptoWithdraw": "Виведення криптовалюти",
+    "bonus": "Бонус",
+    "win": "Перемога",
+    "bet": "Ставлю",
+    "refund": "Повернення коштів",
+    "fiatDepositIssues": "Проблеми або спори щодо депозитів у фіатній валюті",
+    "transaction": "Транзакція"
+  },
+  "gameTypes": {
+    "slots": "Місця",
+    "table": "Таблиця",
+    "live": "Наживо",
+    "crash": "Аварія!",
+    "sports": "Спортивні",
+    "roulette": "Рулетка",
+    "fishing": "Рибальство",
+    "poker": "Покер",
+    "blockchain": "Блокчейн",
+    "keno": "Кено",
+    "show": "Показати",
+    "arcade": "Аркада",
+    "unknown": "Невідома гра"
+  },
+  "tableHeaders": {
+    "time": "Час",
+    "type": "Тип",
+    "amount": "Сума",
+    "status": "Статус",
+    "details": "Подробиці",
+    "game": "Гра",
+    "bet": "Ставлю",
+    "betId": "Ідентифікатор ставки",
+    "gameProvider": "Провайдер",
+    "multiplier": "Множник",
+    "payout": "Вивести кошти",
+    "actions": "Дії",
+    "profit": "Прибуток",
+    "wager": "Ставлю на те, що ти зробиш ставку"
+  },
+  "details": {
+    "title": "Деталі транзакції",
+    "paymentMethod": "Спосіб оплати",
+    "orderId": "Ідентифікатор замовлення",
+    "transactionHash": "Хеш транзакції",
+    "created": "Створено",
+    "transactionProgress": "Прогрес транзакції",
+    "depositOrderCreated": "Створено депозитне доручення",
+    "gatewayConfirmation": "Підтвердження шлюзу",
+    "transactionCompleted": "Транзакцію завершено",
+    "lastUpdate": "Останнє оновлення",
+    "expired": "Термін дії цього замовлення закінчився. Зв'яжіться з нами, якщо у вас виникнуть додаткові запитання."
+  },
+  "betHistory": {
+    "winAmount": "Сума виграшу",
+    "betAmount": "Сума ставки"
+  },
+  "rollover": {
+    "wagerRequirement": "Вимога до розміру ставки",
+    "remainingWager": "Залишок ставки",
+    "expireTime": "Час закінчення терміну дії",
+    "rolloverType": "Тип перекидання"
+  }
+}

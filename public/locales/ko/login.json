@@ -1,0 +1,7 @@
+{
+    "emailError": "유효한 이메일을 입력하세요.",
+    "phoneError": "유효한 전화번호를 입력하세요.",
+    "passwordError": "유효한 비밀번호를 입력하세요.",
+    "signIn": "로그인",
+    "signUp": "회원가입"
+}

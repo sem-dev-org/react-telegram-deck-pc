@@ -1,0 +1,36 @@
+/* 勾选图标的动画效果 */
+@keyframes check-animation {
+  0% {
+    stroke-dashoffset: 20;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+.animate-check {
+  animation: check-animation 0.5s ease-in-out forwards;
+}
+
+/* 按钮过渡效果 */
+.btn-copy-transition {
+  transition: all 0.3s ease;
+}
+
+/* 点赞心形放大缩小动画 */
+@keyframes heartPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+} 

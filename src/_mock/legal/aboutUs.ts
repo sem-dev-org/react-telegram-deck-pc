@@ -1,0 +1,34 @@
+export const mockAboutUs = (t: (key: string, values?: Record<string, any>) => string) => [
+  {
+    id: 'aboutUs',
+    text: {
+      title: t('aboutUs:aboutUs.title'),
+      content: t('aboutUs:aboutUs.content', {
+        companyRegistrationNumber: '165406',
+        registeredAddress: '9',
+        gameUrl: 'https://1st.game',
+        gameName: '1st.game',
+        allianceUrl: 'https://okvipay.com',
+        allianceName: 'okvipay.com',
+      }),
+      // content: `
+      //     <p class="leading-7">
+      //       At <a href={{gameUrl}} class="text-primary font-bold text-sm">{{gameName}}</a> Alliance, we have assembled a team to bring you the latest in online entertainment, fun-filled experiences and instantaneous access to your funds. Our mission is to become the ultimate crypto gaming destination for our audience worldwide.         
+      //     </p>
+      //     <p class="leading-7">
+      //       We are a part of the OKVIP alliance: Official Sponsors of Villareal CF, AC Milan and Argentina Football Association.
+      //     </p>
+      //     <p class="leading-7">
+      //       Check out sponsorships by our OKVIP alliance here. <a href={{allianceUrl}} class="text-primary font-bold text-sm">{{allianceName}}</a> 
+      //     </p>
+      //     <br />
+      //     <p class="leading-7">
+      //       <a href={{gameUrl}} class="text-primary font-bold text-sm">{{gameName}}</a> Alliance is owned by <span class="font-bold text-base">Omnispect B.V.</span>, a limited liability company registered in Curacao with company registration number <span class="font-bold text-base">{{companyRegistrationNumber}}</span>, with a registered address at <span class="font-bold text-base"> Abraham de Veerstraat {{registeredAddress}}, Willemstad.</span>           
+      //     </p>
+      //     <p class="leading-7">
+      //      <a href={{gameUrl}} class="text-primary font-bold text-sm">{{gameName}}</a> Alliance has passed all regulatory compliance and is legally authorized to conduct gaming operations for any and all online games of chance and wagering.         
+      //     </p>
+      // `,
+    },
+  },
+];

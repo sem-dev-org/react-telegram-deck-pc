@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Kapat",
+    "copy": "Kopya",
+    "copied": "Kopyalandı",
+    "noRecords": "Kayıt Bulanamadı",
+    "noTransactionRecords": "İşlem kaydı bulunamadı",
+    "noRolloverRecords": "Devir kaydı bulunamadı",
+    "noBettingRecords": "Bahis kaydı bulunamadı",
+    "tryChangingFilter": "Filtre ayarlarınızı değiştirmeyi deneyin"
+  },
+  "tabs": {
+    "transactionHistory": "İşlem geçmişi",
+    "betHistory": "Bahis Geçmişi",
+    "rollover": "Çevirmek"
+  },
+  "filters": {
+    "all": "Tümü",
+    "allTypes": "Tüm Türler",
+    "allStatuses": "Tüm Durumlar",
+    "allGames": "Tüm Oyunlar",
+    "allAssets": "Tüm Varlıklar",
+    "type": "Tip",
+    "period": "Dönem",
+    "status": "Durum",
+    "asset": "Varlık",
+    "game": "Oyun",
+    "currency": "Para Birimi",
+    "selectCurrency": "Para birimini seçin",
+    "past24Hours": "Son 24 saat",
+    "past7Days": "Önceki 7 Gün",
+    "past30Days": "Önceki 30 Gün",
+    "past60Days": "Son 60 Gün",
+    "past90Days": "Son 90 Gün"
+  },
+  "transactionStatus": {
+    "pending": "Beklemede",
+    "completed": "Tamamlandı",
+    "cancelled": "İptal Edildi",
+    "success": "Başarılı",
+    "failed": "Başarısız",
+    "expired": "Süresi Doldu",
+    "processing": "İşleniyor",
+    "unknown": "Bilinmeyen",
+    "notStarted": "Başlamadı",
+    "ongoing": "Devam Eden",
+    "done": "Tamam"
+  },
+  "transactionTypes": {
+    "deposit": "Depozito",
+    "fiatDeposit": "Fiat Mevduat",
+    "cryptoDeposit": "Kripto Para Yatırma",
+    "withdrawal": "Para çekme",
+    "fiatWithdraw": "Fiat Geri Çekildi",
+    "cryptoWithdraw": "Kripto Para Çekme",
+    "bonus": "Bonus",
+    "win": "Kazanmak",
+    "bet": "Bahis",
+    "refund": "İade",
+    "fiatDepositIssues": "Fiat Mevduat Sorunları veya Anlaşmazlıkları",
+    "transaction": "İşlem"
+  },
+  "gameTypes": {
+    "slots": "Yuvalar",
+    "table": "Tablo",
+    "live": "Canlı",
+    "crash": "Çarpışma",
+    "sports": "Spor Dalları",
+    "roulette": "Rulet",
+    "fishing": "Balıkçılık",
+    "poker": "Poker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Göster",
+    "arcade": "Arcade",
+    "unknown": "Bilinmeyen Oyun"
+  },
+  "tableHeaders": {
+    "time": "Zaman",
+    "type": "Tip",
+    "amount": "Tutar",
+    "status": "Durum",
+    "details": "Detaylar",
+    "game": "Oyun",
+    "bet": "Bahis",
+    "betId": "Bahis Kimliği",
+    "gameProvider": "Hizmet Sağlayıcı",
+    "multiplier": "Çarpan",
+    "payout": "Ödeme",
+    "actions": "Eylemler",
+    "profit": "Kâr",
+    "wager": "Bahis"
+  },
+  "details": {
+    "title": "Ödeme Detayları",
+    "paymentMethod": "Ödeme Yöntemi",
+    "orderId": "Sipariş ID",
+    "transactionHash": "İşlem Hash'i",
+    "created": "Oluşturuldu",
+    "transactionProgress": "İşlem ilerlemesi",
+    "depositOrderCreated": "Depozito Emri Oluşturuldu",
+    "gatewayConfirmation": "Ağ Geçidi Onayı",
+    "transactionCompleted": "İşlem Tamamlandı",
+    "lastUpdate": "Son Güncelleme",
+    "expired": "Bu siparişin süresi dolmuştur. Başka sorularınız varsa bizimle iletişime geçin."
+  },
+  "betHistory": {
+    "winAmount": "Kazanç Miktarı",
+    "betAmount": "Bahis Tutarı"
+  },
+  "rollover": {
+    "wagerRequirement": "Bahis Gereksinimi",
+    "remainingWager": "Kalan Bahis",
+    "expireTime": "Bitiş Tarihi",
+    "rolloverType": "Devrilme Tipi"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "emailError": "请输入有效的电子邮件。",
+    "phoneError": "请输入有效的电话号码。",
+    "passwordError": "请输入有效密码。",
+    "signIn": "登录",
+    "signUp": "注册"
+}

@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Sluiten",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "noRecords": "Niks gevonden",
+    "noTransactionRecords": "Geen transactierecords gevonden",
+    "noRolloverRecords": "Geen rollover records gevonden",
+    "noBettingRecords": "Geen weddenschapsrecords gevonden",
+    "tryChangingFilter": "Probeer je filterinstellingen te wijzigen"
+  },
+  "tabs": {
+    "transactionHistory": "Transactiegeschiedenis",
+    "betHistory": "Inzet geschiedenis",
+    "rollover": "Gevaar door kantelen"
+  },
+  "filters": {
+    "all": "Alle",
+    "allTypes": "Alle types",
+    "allStatuses": "Alle statussen",
+    "allGames": "Alle spellen",
+    "allAssets": "Alle activa",
+    "type": "Type",
+    "period": "Periode",
+    "status": "Status",
+    "asset": "Bezitting",
+    "game": "Spel",
+    "currency": "Valuta",
+    "selectCurrency": "Kies valuta",
+    "past24Hours": "Afgelopen 24 uur",
+    "past7Days": "Afgelopen 7 dagen",
+    "past30Days": "Afgelopen 30 dagen",
+    "past60Days": "Afgelopen 60 dagen",
+    "past90Days": "Afgelopen 90 dagen"
+  },
+  "transactionStatus": {
+    "pending": "In afwachting",
+    "completed": "Voltooid",
+    "cancelled": "Geannuleerd",
+    "success": "Succes",
+    "failed": "Mislukt",
+    "expired": "Verlopen",
+    "processing": "In behandeling",
+    "unknown": "Onbekend",
+    "notStarted": "Niet gestart",
+    "ongoing": "Lopend",
+    "done": "Klaar"
+  },
+  "transactionTypes": {
+    "deposit": "Aanbetaling",
+    "fiatDeposit": "Fiat Statiegeld",
+    "cryptoDeposit": "Cryptostorting",
+    "withdrawal": "Opnames",
+    "fiatWithdraw": "Fiat Terugtrekken",
+    "cryptoWithdraw": "Crypto Opnemen",
+    "bonus": "Bonus",
+    "win": "Win",
+    "bet": "Inzet",
+    "refund": "Terugbetaling",
+    "fiatDepositIssues": "Fiat Deposito-kwesties of -geschillen",
+    "transaction": "Transactie"
+  },
+  "gameTypes": {
+    "slots": "Sloten",
+    "table": "Tabel",
+    "live": "Live",
+    "crash": "Crash",
+    "sports": "Sporten",
+    "roulette": "Roulette",
+    "fishing": "Vissen",
+    "poker": "Poker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Toon",
+    "arcade": "Extra levels",
+    "unknown": "Onbekend spel"
+  },
+  "tableHeaders": {
+    "time": "Tijd",
+    "type": "Type",
+    "amount": "Bedrag",
+    "status": "Status",
+    "details": "Details",
+    "game": "Spel",
+    "bet": "Inzet",
+    "betId": "Inzet ID",
+    "gameProvider": "Provider",
+    "multiplier": "Vermenigvuldigen",
+    "payout": "Uitbetaling",
+    "actions": "Acties",
+    "profit": "Winst",
+    "wager": "Inzet"
+  },
+  "details": {
+    "title": "Transactiedetails",
+    "paymentMethod": "Betaalmethode",
+    "orderId": "Bestelnummer",
+    "transactionHash": "Transactie Hash",
+    "created": "Aangemaakt",
+    "transactionProgress": "Voortgang transactie",
+    "depositOrderCreated": "Stortingsopdracht aangemaakt",
+    "gatewayConfirmation": "Gateway Bevestiging",
+    "transactionCompleted": "Transactie voltooid",
+    "lastUpdate": "Laatste update",
+    "expired": "Deze bestelling is verlopen. Neem contact met ons op als je nog vragen hebt."
+  },
+  "betHistory": {
+    "winAmount": "Win Bedrag",
+    "betAmount": "Inzet Bedrag"
+  },
+  "rollover": {
+    "wagerRequirement": "Inzetvereiste",
+    "remainingWager": "Resterende inzet",
+    "expireTime": "Vervaltijd",
+    "rolloverType": "Type koprol"
+  }
+}

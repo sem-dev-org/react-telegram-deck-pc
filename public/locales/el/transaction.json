@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Κλείσιμο",
+    "copy": "Αντιγραφή",
+    "copied": "Αντιγράφηκε",
+    "noRecords": "Δεν βρέθηκαν εγγραφές",
+    "noTransactionRecords": "Δεν βρέθηκαν αρχεία συναλλαγών",
+    "noRolloverRecords": "Δεν βρέθηκαν αρχεία ανατροπής",
+    "noBettingRecords": "Δεν βρέθηκαν αρχεία στοιχημάτων",
+    "tryChangingFilter": "Δοκιμάστε να αλλάξετε τις ρυθμίσεις του φίλτρου σας"
+  },
+  "tabs": {
+    "transactionHistory": "Ιστορικό συναλλαγών",
+    "betHistory": "Ιστορία στοιχήματος",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Όλα",
+    "allTypes": "Όλοι οι Τύποι",
+    "allStatuses": "Όλες οι καταστάσεις",
+    "allGames": "Όλα τα παιχνίδια",
+    "allAssets": "Όλα τα περιουσιακά στοιχεία",
+    "type": "Τύπος",
+    "period": "Περίοδος",
+    "status": "Κατάσταση",
+    "asset": "Περιουσιακό στοιχείο",
+    "game": "Πρόγραμμα",
+    "currency": "Νόμισμα",
+    "selectCurrency": "Επιλογή Νομίσματος",
+    "past24Hours": "Προηγούμενες 24 ώρες",
+    "past7Days": "Προηγούμενες 7 ημέρες",
+    "past30Days": "Τελευταίες 30 ημέρες",
+    "past60Days": "Παρελθούσες 60 ημέρες",
+    "past90Days": "Παρελθούσες 90 ημέρες"
+  },
+  "transactionStatus": {
+    "pending": "Εκκρεμεί",
+    "completed": "Ολοκληρώθηκε",
+    "cancelled": "Ακυρώθηκε",
+    "success": "Επιτυχία",
+    "failed": "Απέτυχε",
+    "expired": "Έληξε",
+    "processing": "Σε επεξεργασία",
+    "unknown": "Άγνωστο",
+    "notStarted": "Δεν ξεκίνησε",
+    "ongoing": "Σε εξέλιξη",
+    "done": "Ολοκληρώθηκε"
+  },
+  "transactionTypes": {
+    "deposit": "Προκαταβολή",
+    "fiatDeposit": "Κατάθεση Fiat",
+    "cryptoDeposit": "Κατάθεση κρυπτογράφησης",
+    "withdrawal": "Ανάληψη",
+    "fiatWithdraw": "Fiat Απόσυρση",
+    "cryptoWithdraw": "Απόσυρση κρυπτογράφησης",
+    "bonus": "Δώρο",
+    "win": "Κερδίστε",
+    "bet": "Στοίχημα",
+    "refund": "Επιστροφή χρημάτων",
+    "fiatDepositIssues": "Θέματα ή διαφορές καταθέσεων Fiat",
+    "transaction": "Συναλλαγή"
+  },
+  "gameTypes": {
+    "slots": "Χρονοθυρίδες",
+    "table": "Πίνακας",
+    "live": "Live",
+    "crash": "Crash",
+    "sports": "Τοποθεσία αθλητικής δραστηριότητας",
+    "roulette": "Ρουλέτα",
+    "fishing": "Αλιεία",
+    "poker": "Πόκερ",
+    "blockchain": "Blockchain",
+    "keno": "Κίνο",
+    "show": "Εμφάνιση",
+    "arcade": "Arcade",
+    "unknown": "Άγνωστο παιχνίδι"
+  },
+  "tableHeaders": {
+    "time": "Ώρα",
+    "type": "Τύπος",
+    "amount": "Ποσό",
+    "status": "Κατάσταση",
+    "details": "Λεπτομέρειες",
+    "game": "Πρόγραμμα",
+    "bet": "Στοίχημα",
+    "betId": "Αναγνωριστικό στοιχήματος",
+    "gameProvider": "Πάροχος",
+    "multiplier": "Πολλαπλασιαστής",
+    "payout": "Πληρωμή",
+    "actions": "Ενέργειες",
+    "profit": "Κέρδος",
+    "wager": "Στοίχημα"
+  },
+  "details": {
+    "title": "Λεπτομέρειες συναλλαγής",
+    "paymentMethod": "Τρόπος Πληρωμής",
+    "orderId": "ID παραγγελίας",
+    "transactionHash": "Συναλλαγή Hash",
+    "created": "Δημιουργήθηκε",
+    "transactionProgress": "Πρόοδος συναλλαγής",
+    "depositOrderCreated": "Δημιουργήθηκε εντολή κατάθεσης",
+    "gatewayConfirmation": "Επιβεβαίωση πύλης",
+    "transactionCompleted": "Συναλλαγή Ολοκληρώθηκε",
+    "lastUpdate": "Τελευταία Ενημέρωση",
+    "expired": "Αυτή η παραγγελία έχει λήξει. Επικοινωνήστε μαζί μας αν έχετε περαιτέρω ερωτήσεις."
+  },
+  "betHistory": {
+    "winAmount": "Ποσό κέρδους",
+    "betAmount": "Ποσό στοιχήματος"
+  },
+  "rollover": {
+    "wagerRequirement": "Απαίτηση στοιχήματος",
+    "remainingWager": "Υπόλοιπο στοίχημα",
+    "expireTime": "Χρόνος Λήξης",
+    "rolloverType": "Τύπος ανατροπής"
+  }
+}

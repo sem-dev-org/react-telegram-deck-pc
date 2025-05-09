@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Sulge",
+    "copy": "Kopeeri",
+    "copied": "Kopeeritud",
+    "noRecords": "Andmeid ei leitud",
+    "noTransactionRecords": "Tehingukirjeid ei leitud",
+    "noRolloverRecords": "Ümberpöördumise kirjeid ei leitud",
+    "noBettingRecords": "Ei leitud kihlvedude kirjeid",
+    "tryChangingFilter": "Proovige muuta oma filtri seadeid"
+  },
+  "tabs": {
+    "transactionHistory": "Tehingute ajalugu",
+    "betHistory": "Panustamise ajalugu",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Kõik",
+    "allTypes": "Kõik reisitüübid",
+    "allStatuses": "Kõik staatused",
+    "allGames": "Kõik mängud",
+    "allAssets": "Kõik varad",
+    "type": "Tüüp",
+    "period": "Periood",
+    "status": "Staatus",
+    "asset": "Varad",
+    "game": "Mäng",
+    "currency": "Valuuta",
+    "selectCurrency": "Vali valuuta",
+    "past24Hours": "Viimased 24 tundi",
+    "past7Days": "Viimased 7 päeva",
+    "past30Days": "Viimased 30 päeva",
+    "past60Days": "Viimased 60 päeva",
+    "past90Days": "Viimased 90 päeva"
+  },
+  "transactionStatus": {
+    "pending": "Ootel",
+    "completed": "Lõpetatud",
+    "cancelled": "Tühistatud",
+    "success": "Edukas",
+    "failed": "Ebaõnnestunud",
+    "expired": "Aegunud",
+    "processing": "Töötlemine",
+    "unknown": "Tundmatu",
+    "notStarted": "Ei ole alustatud",
+    "ongoing": "Tulemas",
+    "done": "Valmis"
+  },
+  "transactionTypes": {
+    "deposit": "Tagatisraha",
+    "fiatDeposit": "Fiat hoius",
+    "cryptoDeposit": "Krüpto deposiit",
+    "withdrawal": "Väljamakse",
+    "fiatWithdraw": "Fiat tagasivõtmine",
+    "cryptoWithdraw": "Krüpto tagasivõtmine",
+    "bonus": "Boonus",
+    "win": "Võida",
+    "bet": "Panus",
+    "refund": "Tagasimakse",
+    "fiatDepositIssues": "Fiat hoiuste probleemid või vaidlused",
+    "transaction": "Tehing"
+  },
+  "gameTypes": {
+    "slots": "Slots",
+    "table": "Tabel",
+    "live": "Töötab",
+    "crash": "Crash",
+    "sports": "Sport",
+    "roulette": "Rulett",
+    "fishing": "Kalapüük",
+    "poker": "Pokker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Näita",
+    "arcade": "Arcade",
+    "unknown": "Tundmatu mäng"
+  },
+  "tableHeaders": {
+    "time": "Aeg",
+    "type": "Tüüp",
+    "amount": "Summa",
+    "status": "Staatus",
+    "details": "Detailid",
+    "game": "Mäng",
+    "bet": "Panus",
+    "betId": "Panustamise ID",
+    "gameProvider": "Teenusepakkuja",
+    "multiplier": "Korrutis",
+    "payout": "Väljamakse",
+    "actions": "Tegevused",
+    "profit": "Kasum",
+    "wager": "Wager"
+  },
+  "details": {
+    "title": "Kande üksikasjad",
+    "paymentMethod": "Makseviis",
+    "orderId": "Tellimuse ID",
+    "transactionHash": "Tehingu Hash",
+    "created": "Loodud",
+    "transactionProgress": "Tehingu edenemine",
+    "depositOrderCreated": "Deposiitkorraldus loodud",
+    "gatewayConfirmation": "Gateway kinnitamine",
+    "transactionCompleted": "Tehing lõpule viidud",
+    "lastUpdate": "Viimane värskendus",
+    "expired": "See tellimus on aegunud. Võtke meiega ühendust, kui teil on lisaküsimusi."
+  },
+  "betHistory": {
+    "winAmount": "Võidu summa",
+    "betAmount": "Panuse summa"
+  },
+  "rollover": {
+    "wagerRequirement": "Panustamise nõue",
+    "remainingWager": "Ülejäänud panus",
+    "expireTime": "Aegumine aegub",
+    "rolloverType": "Ümberpööramise tüüp"
+  }
+}

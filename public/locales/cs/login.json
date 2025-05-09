@@ -1,0 +1,7 @@
+{
+    "emailError": "Zadejte prosím platný e-mail.",
+    "phoneError": "Zadejte prosím platné telefonní číslo.",
+    "passwordError": "Zadejte prosím platné heslo.",
+    "signIn": "Přihlásit se",
+    "signUp": "Registrace"
+}

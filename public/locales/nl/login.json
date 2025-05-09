@@ -1,0 +1,7 @@
+{
+    "emailError": "Voer een geldig e-mailadres in.",
+    "phoneError": "Voer een geldig telefoonnummer in.",
+    "passwordError": "Voer een geldig wachtwoord in.",
+    "signIn": "Inloggen",
+    "signUp": "Registreren"
+}

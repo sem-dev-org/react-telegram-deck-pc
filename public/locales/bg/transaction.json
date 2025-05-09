@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Затвори",
+    "copy": "Копиране",
+    "copied": "Копирано",
+    "noRecords": "Не са намерени записи",
+    "noTransactionRecords": "Не са намерени записи на транзакции",
+    "noRolloverRecords": "Не са намерени записи за преобръщане",
+    "noBettingRecords": "Не са намерени записи за залагания",
+    "tryChangingFilter": "Опитайте да промените настройките на филтъра"
+  },
+  "tabs": {
+    "transactionHistory": "История на транзакциите",
+    "betHistory": "История на залозите",
+    "rollover": "Преобръщане"
+  },
+  "filters": {
+    "all": "Всички",
+    "allTypes": "Всички типове",
+    "allStatuses": "Всички статуси",
+    "allGames": "Всички игри",
+    "allAssets": "Всички активи",
+    "type": "Тип",
+    "period": "Период",
+    "status": "Статус",
+    "asset": "Актив",
+    "game": "Игра",
+    "currency": "Валута",
+    "selectCurrency": "Изберете валута",
+    "past24Hours": "Последните 24 часа",
+    "past7Days": "Последните 7 дни",
+    "past30Days": "Последните 30 дни",
+    "past60Days": "Последните 60 дни",
+    "past90Days": "Последните 90 дни"
+  },
+  "transactionStatus": {
+    "pending": "Изчаква одобрение",
+    "completed": "Приключена",
+    "cancelled": "Отменен",
+    "success": "Успешно",
+    "failed": "Неуспешно",
+    "expired": "Изтекла",
+    "processing": "Обработка",
+    "unknown": "Неизвестно",
+    "notStarted": "Не е започнал",
+    "ongoing": "Текущ",
+    "done": "Готово"
+  },
+  "transactionTypes": {
+    "deposit": "Депозит",
+    "fiatDeposit": "Депозит за Fiat",
+    "cryptoDeposit": "Крипто депозит",
+    "withdrawal": "Теглене",
+    "fiatWithdraw": "Оттегляне на Fiat",
+    "cryptoWithdraw": "Изтегляне на крипто",
+    "bonus": "Бонус",
+    "win": "Спечелете",
+    "bet": "Залог",
+    "refund": "Възстановяване",
+    "fiatDepositIssues": "Проблеми или спорове, свързани с депозита Fiat",
+    "transaction": "Транзакция"
+  },
+  "gameTypes": {
+    "slots": "Слотове",
+    "table": "Таблица",
+    "live": "На живо",
+    "crash": "Crash",
+    "sports": "Спортове",
+    "roulette": "Рулетка",
+    "fishing": "Риболов",
+    "poker": "Покер",
+    "blockchain": "Блокчейн",
+    "keno": "Кено",
+    "show": "Покажи",
+    "arcade": "Аркада",
+    "unknown": "Неизвестна игра"
+  },
+  "tableHeaders": {
+    "time": "Време",
+    "type": "Тип",
+    "amount": "Сума",
+    "status": "Статус",
+    "details": "Детайли",
+    "game": "Игра",
+    "bet": "Залог",
+    "betId": "Идентификатор на залог",
+    "gameProvider": "Доставчик",
+    "multiplier": "Мултипликатор",
+    "payout": "Изплащане",
+    "actions": "Действия",
+    "profit": "Печалба",
+    "wager": "Залог"
+  },
+  "details": {
+    "title": "Подробности за транзакцията",
+    "paymentMethod": "Метод на плащане",
+    "orderId": "Номер на поръчка",
+    "transactionHash": "Транзакция Hash",
+    "created": "Създаден",
+    "transactionProgress": "Напредък на транзакцията",
+    "depositOrderCreated": "Създадена поръчка за депозит",
+    "gatewayConfirmation": "Потвърждение на Gateway",
+    "transactionCompleted": "Завършена транзакция",
+    "lastUpdate": "Последна актуализация",
+    "expired": "Срокът на валидност на тази поръчка е изтекъл. Свържете се с нас, ако имате допълнителни въпроси."
+  },
+  "betHistory": {
+    "winAmount": "Размер на печалбата",
+    "betAmount": "Размер на залога"
+  },
+  "rollover": {
+    "wagerRequirement": "Изискване за залог",
+    "remainingWager": "Оставащият залог",
+    "expireTime": "Край на периода",
+    "rolloverType": "Тип преобръщане"
+  }
+}

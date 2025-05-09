@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Lukk",
+    "copy": "Kopier",
+    "copied": "Kopiert",
+    "noRecords": "Ingen oppføringer funnet",
+    "noTransactionRecords": "Ingen transaksjonsposter funnet",
+    "noRolloverRecords": "Ingen overføringsoppføringer funnet",
+    "noBettingRecords": "Ingen spilloppføringer funnet",
+    "tryChangingFilter": "Prøv å endre filterinnstillingene dine"
+  },
+  "tabs": {
+    "transactionHistory": "Transaksjonshistorikk",
+    "betHistory": "Spillhistorikk",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Tất cả",
+    "allTypes": "Tất cả",
+    "allStatuses": "Alle statuser",
+    "allGames": "Alle spill",
+    "allAssets": "Alle eiendeler",
+    "type": "Type",
+    "period": "Periode",
+    "status": "Status",
+    "asset": "Aktiva",
+    "game": "Spill",
+    "currency": "Valuta",
+    "selectCurrency": "Velg valuta",
+    "past24Hours": "Siste 24 timer",
+    "past7Days": "De siste 7 dagene",
+    "past30Days": "De siste 30 dagene",
+    "past60Days": "De siste 60 dagene",
+    "past90Days": "De siste 90 dagene"
+  },
+  "transactionStatus": {
+    "pending": "Venter",
+    "completed": "Fullført",
+    "cancelled": "Avlyst",
+    "success": "Fullført",
+    "failed": "Mislyktes",
+    "expired": "Utløpt",
+    "processing": "Prosesserer",
+    "unknown": "Ukjent",
+    "notStarted": "Ikke startet",
+    "ongoing": "Løpende",
+    "done": "Ferdig"
+  },
+  "transactionTypes": {
+    "deposit": "Innskudd",
+    "fiatDeposit": "Fiat Innskudd",
+    "cryptoDeposit": "Kryptoinnskudd",
+    "withdrawal": "Uttak",
+    "fiatWithdraw": "Fiat trekker seg tilbake",
+    "cryptoWithdraw": "Uttak av krypto",
+    "bonus": "Bonus",
+    "win": "Seier",
+    "bet": "Sats",
+    "refund": "Refunder",
+    "fiatDepositIssues": "Problemer eller tvister knyttet til Fiat-innskudd",
+    "transaction": "Transaksjon"
+  },
+  "gameTypes": {
+    "slots": "Spilleautomater",
+    "table": "Bord",
+    "live": "Live",
+    "crash": "Krasj",
+    "sports": "Sport",
+    "roulette": "Rulett",
+    "fishing": "Fisking",
+    "poker": "Poker",
+    "blockchain": "Blokkjede",
+    "keno": "Keno",
+    "show": "Vis",
+    "arcade": "Arkade",
+    "unknown": "Ukjent spill"
+  },
+  "tableHeaders": {
+    "time": "Tid",
+    "type": "Type",
+    "amount": "Beløp",
+    "status": "Status",
+    "details": "Detaljer",
+    "game": "Spill",
+    "bet": "Sats",
+    "betId": "Spill-ID",
+    "gameProvider": "Leverandør",
+    "multiplier": "Multiplikator",
+    "payout": "Utbetaling",
+    "actions": "Handlinger",
+    "profit": "Overskudd",
+    "wager": "Innsats"
+  },
+  "details": {
+    "title": "Transaksjonsdetaljer",
+    "paymentMethod": "Betalingsmetode",
+    "orderId": "Bestillings ID",
+    "transactionHash": "Transaksjonshash",
+    "created": "Opprettet",
+    "transactionProgress": "Transaksjonens fremdrift",
+    "depositOrderCreated": "Innskuddsordre opprettet",
+    "gatewayConfirmation": "Gateway-bekreftelse",
+    "transactionCompleted": "Transaksjon fullført",
+    "lastUpdate": "Siste oppdatering",
+    "expired": "Denne bestillingen er utløpt. Kontakt oss hvis du har ytterligere spørsmål."
+  },
+  "betHistory": {
+    "winAmount": "Gevinstbeløp",
+    "betAmount": "Innsatsbeløp"
+  },
+  "rollover": {
+    "wagerRequirement": "Krav til innsats",
+    "remainingWager": "Gjenværende innsats",
+    "expireTime": "Utløpstid",
+    "rolloverType": "Rollover Type"
+  }
+}

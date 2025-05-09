@@ -1,0 +1,23 @@
+/* 聊天气泡样式 */
+
+/* 移除气泡箭头的样式 */
+.chat-bubble-no-arrow::before {
+  display: none !important;
+}
+
+/* 调整无箭头气泡的圆角 - 左侧消息 */
+.chat-start .chat-bubble-no-arrow {
+  border-bottom-left-radius: 1rem !important;
+  margin-bottom: 0.1rem !important; /* 减小消息之间的间距 */
+}
+
+/* 调整无箭头气泡的圆角 - 右侧消息 */
+.chat-end .chat-bubble-no-arrow {
+  border-bottom-right-radius: 1rem !important;
+  margin-bottom: 0.1rem !important; /* 减小消息之间的间距 */
+}
+
+/* 无箭头的消息可以紧密一些 */
+.chat-bubble-group {
+  gap: 0.2rem !important;
+} 

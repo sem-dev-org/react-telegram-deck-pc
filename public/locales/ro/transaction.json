@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Închide",
+    "copy": "Copiază",
+    "copied": "Copiat",
+    "noRecords": "Nu s-au găsit rezultate",
+    "noTransactionRecords": "Nu s-au găsit înregistrări ale tranzacțiilor",
+    "noRolloverRecords": "Nu s-au găsit înregistrări de răsturnare",
+    "noBettingRecords": "Nu s-au găsit înregistrări de pariuri",
+    "tryChangingFilter": "Încercați să modificați setările filtrului"
+  },
+  "tabs": {
+    "transactionHistory": "Istoricul tranzacțiilor",
+    "betHistory": "Istoric pariuri",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Toate",
+    "allTypes": "Toate Tipurile",
+    "allStatuses": "Toate Statuturile",
+    "allGames": "Toate Jocurile",
+    "allAssets": "Toate activele",
+    "type": "Tip",
+    "period": "Perioadă",
+    "status": "Stare",
+    "asset": "Activ",
+    "game": "Joc",
+    "currency": "Moneda",
+    "selectCurrency": "Alege moneda",
+    "past24Hours": "Ultimele 24 de ore",
+    "past7Days": "Ultimele 7 zile",
+    "past30Days": "Ultimele 30 de zile",
+    "past60Days": "Ultimele 60 de zile",
+    "past90Days": "Ultimele 90 de zile"
+  },
+  "transactionStatus": {
+    "pending": "În așteptare",
+    "completed": "Finalizată",
+    "cancelled": "Anulat",
+    "success": "Succes",
+    "failed": "Eșuată",
+    "expired": "Expirat",
+    "processing": "În curs de procesare",
+    "unknown": "Necunoscut",
+    "notStarted": "Nu a început",
+    "ongoing": "În derulare",
+    "done": "Terminat"
+  },
+  "transactionTypes": {
+    "deposit": "Depozit",
+    "fiatDeposit": "Depozit Fiat",
+    "cryptoDeposit": "Depozit Crypto",
+    "withdrawal": "Retragere",
+    "fiatWithdraw": "Fiat se retrage",
+    "cryptoWithdraw": "Retragere cripto",
+    "bonus": "Bonus",
+    "win": "Câştigă",
+    "bet": "Pariu",
+    "refund": "Rambursare",
+    "fiatDepositIssues": "Probleme sau litigii legate de depozitele Fiat",
+    "transaction": "Tranzactie"
+  },
+  "gameTypes": {
+    "slots": "Sloturi",
+    "table": "Tabel",
+    "live": "Live",
+    "crash": "Crash",
+    "sports": "Sporturi",
+    "roulette": "Ruletă",
+    "fishing": "Pescuit",
+    "poker": "Poker",
+    "blockchain": "Jocuri Blockchain",
+    "keno": "Keno",
+    "show": "Spectacol",
+    "arcade": "Arcadă",
+    "unknown": "Joc necunoscut"
+  },
+  "tableHeaders": {
+    "time": "Timp",
+    "type": "Tip",
+    "amount": "Cantitate",
+    "status": "Stare",
+    "details": "Detalii",
+    "game": "Joc",
+    "bet": "Pariu",
+    "betId": "ID-ul pariului",
+    "gameProvider": "Prestator",
+    "multiplier": "Multiplicator",
+    "payout": "Total tranzacții de plată",
+    "actions": "Acțiuni",
+    "profit": "Profit",
+    "wager": "Pariu"
+  },
+  "details": {
+    "title": "Detalii privind tranzacția",
+    "paymentMethod": "Modalitate Plata",
+    "orderId": "ID comanda",
+    "transactionHash": "Tranzacție Hash",
+    "created": "Creat",
+    "transactionProgress": "Progresul tranzacției",
+    "depositOrderCreated": "Ordin de depozit creat",
+    "gatewayConfirmation": "Confirmarea Gateway",
+    "transactionCompleted": "Tranzacție finalizată",
+    "lastUpdate": "Ultima actualizare",
+    "expired": "Această comandă a expirat. Contactați-ne dacă aveți întrebări suplimentare."
+  },
+  "betHistory": {
+    "winAmount": "Suma câștigată",
+    "betAmount": "Suma pariului"
+  },
+  "rollover": {
+    "wagerRequirement": "Cerința de pariu",
+    "remainingWager": "Pariul rămas",
+    "expireTime": "Expiră Timpul",
+    "rolloverType": "Tip răsturnare"
+  }
+}

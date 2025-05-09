@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Chiudi",
+    "copy": "Copia",
+    "copied": "Copiato",
+    "noRecords": "Non ho trovato nulla",
+    "noTransactionRecords": "Nessun record di transazione trovato",
+    "noRolloverRecords": "Nessun record di rollover trovato",
+    "noBettingRecords": "Nessun record di scommesse trovato",
+    "tryChangingFilter": "Provare a modificare le impostazioni del filtro"
+  },
+  "tabs": {
+    "transactionHistory": "Storico Transazioni",
+    "betHistory": "Storia delle scommesse",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Tutti",
+    "allTypes": "Tutti i tipi",
+    "allStatuses": "Tutti gli stati",
+    "allGames": "Tutti i Giochi",
+    "allAssets": "Tutte le attività",
+    "type": "Tipo",
+    "period": "Periodo",
+    "status": "Stato",
+    "asset": "Attività",
+    "game": "Partita",
+    "currency": "Valuta",
+    "selectCurrency": "Seleziona la valuta",
+    "past24Hours": "Ultime 24 ore",
+    "past7Days": "Ultimi 7 giorni",
+    "past30Days": "Ultimi 30 giorni",
+    "past60Days": "Ultimi 60 giorni",
+    "past90Days": "Ultimi 90 giorni"
+  },
+  "transactionStatus": {
+    "pending": "In attesa",
+    "completed": "Completato",
+    "cancelled": "Annullato",
+    "success": "Successo",
+    "failed": "Fallito",
+    "expired": "Scaduto",
+    "processing": "Elaborazione",
+    "unknown": "Sconosciuto",
+    "notStarted": "Non Iniziato",
+    "ongoing": "In Corso",
+    "done": "Fatto"
+  },
+  "transactionTypes": {
+    "deposit": "Acconto",
+    "fiatDeposit": "Deposito Fiat",
+    "cryptoDeposit": "Deposito di criptovalute",
+    "withdrawal": "Prelievo",
+    "fiatWithdraw": "Fiat ritira",
+    "cryptoWithdraw": "Prelievo di criptovalute",
+    "bonus": "Bonus",
+    "win": "Vinte",
+    "bet": "Scommessa",
+    "refund": "Rimborso",
+    "fiatDepositIssues": "Problemi o controversie sui depositi Fiat",
+    "transaction": "Transazione"
+  },
+  "gameTypes": {
+    "slots": "Slot",
+    "table": "Tabella",
+    "live": "Live",
+    "crash": "Schianto",
+    "sports": "Sport",
+    "roulette": "Roulette",
+    "fishing": "Pesca",
+    "poker": "Il poker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Mostra",
+    "arcade": "Arcade",
+    "unknown": "Gioco sconosciuto"
+  },
+  "tableHeaders": {
+    "time": "Orario",
+    "type": "Tipo",
+    "amount": "Importo",
+    "status": "Stato",
+    "details": "Dettagli",
+    "game": "Partita",
+    "bet": "Scommessa",
+    "betId": "ID scommessa",
+    "gameProvider": "Provider",
+    "multiplier": "Moltiplicatore",
+    "payout": "Pagamento",
+    "actions": "Azioni",
+    "profit": "Profitto",
+    "wager": "Scommessa"
+  },
+  "details": {
+    "title": "Dettagli di Transazione",
+    "paymentMethod": "Metodo di pagamento",
+    "orderId": "ID Ordine",
+    "transactionHash": "Hash di transazione",
+    "created": "Creato",
+    "transactionProgress": "Avanzamento della transazione",
+    "depositOrderCreated": "Ordine di deposito creato",
+    "gatewayConfirmation": "Conferma del gateway",
+    "transactionCompleted": "Transazione completata",
+    "lastUpdate": "Ultimo aggiornamento",
+    "expired": "Questo ordine è scaduto. Contattateci se avete altre domande."
+  },
+  "betHistory": {
+    "winAmount": "Importo della vincita",
+    "betAmount": "Importo della scommessa"
+  },
+  "rollover": {
+    "wagerRequirement": "Requisiti di puntata",
+    "remainingWager": "Scommessa rimanente",
+    "expireTime": "Data scadenza",
+    "rolloverType": "Tipo di ribaltamento"
+  }
+}

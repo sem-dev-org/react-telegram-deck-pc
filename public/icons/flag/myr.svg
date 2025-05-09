@@ -1,0 +1,22 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2503_11362)">
+<path d="M14 3.5H8V5H14.875C14.65 4.475 14.35 3.95 14 3.5Z" fill="#ED4C5C" style="fill:#ED4C5C;fill:color(display-p3 0.9294 0.2980 0.3608);fill-opacity:1;"/>
+<path d="M15.35 9.5C15.45 9.025 15.5 8.525 15.5 8H0.5C0.5 8.525 0.55 9.025 0.65 9.5H15.35Z" fill="#F9F9F9" style="fill:#F9F9F9;fill:color(display-p3 0.9765 0.9765 0.9765);fill-opacity:1;"/>
+<path d="M8 0.5V2H12.5C11.25 1.05 9.7 0.5 8 0.5Z" fill="#ED4C5C" style="fill:#ED4C5C;fill:color(display-p3 0.9294 0.2980 0.3608);fill-opacity:1;"/>
+<path d="M8 3.5H14C13.575 2.925 13.075 2.425 12.5 2H8V3.5Z" fill="#F9F9F9" style="fill:#F9F9F9;fill:color(display-p3 0.9765 0.9765 0.9765);fill-opacity:1;"/>
+<path d="M14.875 5H8V6.5H15.35C15.25 5.975 15.075 5.475 14.875 5Z" fill="#F9F9F9" style="fill:#F9F9F9;fill:color(display-p3 0.9765 0.9765 0.9765);fill-opacity:1;"/>
+<path d="M8 6.5V8H15.5C15.5 7.475 15.45 6.975 15.35 6.5H8Z" fill="#ED4C5C" style="fill:#ED4C5C;fill:color(display-p3 0.9294 0.2980 0.3608);fill-opacity:1;"/>
+<path d="M1.12502 11H14.875C15.075 10.525 15.25 10.025 15.35 9.5H0.650024C0.750024 10.025 0.925024 10.525 1.12502 11Z" fill="#ED4C5C" style="fill:#ED4C5C;fill:color(display-p3 0.9294 0.2980 0.3608);fill-opacity:1;"/>
+<path d="M2 12.5H14C14.35 12.05 14.65 11.525 14.875 11H1.125C1.35 11.525 1.65 12.05 2 12.5Z" fill="#F9F9F9" style="fill:#F9F9F9;fill:color(display-p3 0.9765 0.9765 0.9765);fill-opacity:1;"/>
+<path d="M2 12.5C2.425 13.075 2.925 13.575 3.5 14H12.5C13.075 13.575 13.575 13.075 14 12.5H2Z" fill="#ED4C5C" style="fill:#ED4C5C;fill:color(display-p3 0.9294 0.2980 0.3608);fill-opacity:1;"/>
+<path d="M3.5 14C4.75 14.95 6.3 15.5 8 15.5C9.7 15.5 11.25 14.95 12.5 14H3.5Z" fill="#F9F9F9" style="fill:#F9F9F9;fill:color(display-p3 0.9765 0.9765 0.9765);fill-opacity:1;"/>
+<path d="M8 0.5C3.85 0.5 0.5 3.85 0.5 8H8V0.5Z" fill="#2A5F9E" style="fill:#2A5F9E;fill:color(display-p3 0.1647 0.3725 0.6196);fill-opacity:1;"/>
+<path d="M4.975 6.4C4.225 6.4 3.6 5.775 3.6 5C3.6 4.225 4.225 3.6 4.975 3.6C5.275 3.6 5.525 3.7 5.75 3.85C5.425 3.475 4.975 3.25 4.45 3.25C3.5 3.25 2.75 4.025 2.75 5C2.75 5.975 3.525 6.75 4.45 6.75C4.975 6.75 5.425 6.525 5.75 6.15C5.525 6.3 5.25 6.4 4.975 6.4Z" fill="#FFE62E" style="fill:#FFE62E;fill:color(display-p3 1.0000 0.9020 0.1804);fill-opacity:1;"/>
+<path d="M6.5 4.7L6.675 4.25L6.625 4.725L6.975 4.4L6.725 4.825L7.175 4.675L6.775 4.925L7.25 5L6.775 5.075L7.175 5.325L6.725 5.175L6.975 5.6L6.625 5.275L6.675 5.75L6.5 5.3L6.325 5.75L6.375 5.275L6.025 5.6L6.275 5.175L5.825 5.325L6.225 5.075L5.75 5L6.225 4.925L5.825 4.675L6.275 4.825L6.025 4.4L6.375 4.725L6.325 4.25L6.5 4.7Z" fill="#FFE62E" style="fill:#FFE62E;fill:color(display-p3 1.0000 0.9020 0.1804);fill-opacity:1;"/>
+</g>
+<defs>
+<clipPath id="clip0_2503_11362">
+<rect width="16" height="16" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

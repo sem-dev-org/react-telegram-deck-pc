@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Tutup",
+    "copy": "Salin",
+    "copied": "Disalin",
+    "noRecords": "Tidak ada catatan yang ditemukan",
+    "noTransactionRecords": "Tidak ada catatan transaksi yang ditemukan",
+    "noRolloverRecords": "Tidak ditemukan catatan rollover",
+    "noBettingRecords": "Tidak ada catatan taruhan yang ditemukan",
+    "tryChangingFilter": "Coba ubah pengaturan filter Anda"
+  },
+  "tabs": {
+    "transactionHistory": "Riwayat Pembayaran",
+    "betHistory": "Riwayat Taruhan",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Semua",
+    "allTypes": "Semua Tipe",
+    "allStatuses": "Semua Status",
+    "allGames": "Semua Game",
+    "allAssets": "Semua Aset",
+    "type": "Tipe",
+    "period": "Periode",
+    "status": "Status",
+    "asset": "Aset",
+    "game": "Permainan",
+    "currency": "Mata Uang",
+    "selectCurrency": "Pilih Mata Uang",
+    "past24Hours": "24 Jam Terakhir",
+    "past7Days": "7 Hari Terakhir",
+    "past30Days": "30 Hari Terakhir",
+    "past60Days": "60 Hari Terakhir",
+    "past90Days": "90 Hari Terakhir"
+  },
+  "transactionStatus": {
+    "pending": "Tertunda",
+    "completed": "Selesai",
+    "cancelled": "Dibatalkan",
+    "success": "Berhasil",
+    "failed": "Gagal",
+    "expired": "Berakhir",
+    "processing": "Diproses",
+    "unknown": "Tidak diketahui",
+    "notStarted": "Belum Dimulai",
+    "ongoing": "Sedang berlangsung",
+    "done": "Selesai"
+  },
+  "transactionTypes": {
+    "deposit": "Deposit",
+    "fiatDeposit": "Deposito Fiat",
+    "cryptoDeposit": "Setoran Kripto",
+    "withdrawal": "Penarikan",
+    "fiatWithdraw": "Fiat Menarik Diri",
+    "cryptoWithdraw": "Penarikan Crypto",
+    "bonus": "Bonus",
+    "win": "Menang",
+    "bet": "Taruhan",
+    "refund": "Pengembalian dana",
+    "fiatDepositIssues": "Masalah atau Sengketa Deposito Fiat",
+    "transaction": "Transaksi"
+  },
+  "gameTypes": {
+    "slots": "Slot",
+    "table": "Tabel",
+    "live": "Aktif",
+    "crash": "Kecelakaan",
+    "sports": "Olahraga",
+    "roulette": "Roulette",
+    "fishing": "Memancing",
+    "poker": "Poker",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Tampilkan",
+    "arcade": "Arkade",
+    "unknown": "Game yang tidak diketahui"
+  },
+  "tableHeaders": {
+    "time": "Waktu",
+    "type": "Tipe",
+    "amount": "Jumlah",
+    "status": "Status",
+    "details": "Detail",
+    "game": "Permainan",
+    "bet": "Taruhan",
+    "betId": "ID Taruhan",
+    "gameProvider": "Penyedia",
+    "multiplier": "Pengganda",
+    "payout": "Pembayaran",
+    "actions": "Tindakan",
+    "profit": "Untung",
+    "wager": "Taruhan"
+  },
+  "details": {
+    "title": "Rincian Transaksi",
+    "paymentMethod": "Metode Pembayaran",
+    "orderId": "ID Pesanan",
+    "transactionHash": "Hash Transaksi",
+    "created": "Dibuat",
+    "transactionProgress": "Kemajuan transaksi",
+    "depositOrderCreated": "Perintah Setoran Dibuat",
+    "gatewayConfirmation": "Konfirmasi Gerbang",
+    "transactionCompleted": "Transaksi Selesai",
+    "lastUpdate": "Terakhir Diperbarui",
+    "expired": "Pesanan ini telah kedaluwarsa. Hubungi kami jika Anda memiliki pertanyaan lebih lanjut."
+  },
+  "betHistory": {
+    "winAmount": "Jumlah Kemenangan",
+    "betAmount": "Jumlah Taruhan"
+  },
+  "rollover": {
+    "wagerRequirement": "Persyaratan Taruhan",
+    "remainingWager": "Sisa Taruhan",
+    "expireTime": "Waktu kedaluwarsa",
+    "rolloverType": "Jenis Rollover"
+  }
+}

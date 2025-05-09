@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Sulje",
+    "copy": "Kopioi",
+    "copied": "Kopioitu",
+    "noRecords": "Tietoja ei löydy",
+    "noTransactionRecords": "Tapahtumatietoja ei löytynyt",
+    "noRolloverRecords": "Ei löytynyt rollover-tietueita",
+    "noBettingRecords": "Vedonlyöntitietoja ei löytynyt",
+    "tryChangingFilter": "Kokeile muuttaa suodattimen asetuksia"
+  },
+  "tabs": {
+    "transactionHistory": "Tapahtumahistoria",
+    "betHistory": "Vedonlyönnin historia",
+    "rollover": "Rollover"
+  },
+  "filters": {
+    "all": "Kaikki",
+    "allTypes": "Kaikki tyypit",
+    "allStatuses": "Kaikki tilat",
+    "allGames": "Kaikki pelit",
+    "allAssets": "Kaikki varat",
+    "type": "Tyyppi",
+    "period": "Ajanjakso",
+    "status": "Tila",
+    "asset": "Käyttöomaisuus",
+    "game": "Peli",
+    "currency": "Valuutta",
+    "selectCurrency": "Valitse Valuutta",
+    "past24Hours": "Edelliset 24 tuntia",
+    "past7Days": "Viimeiset 7 päivää",
+    "past30Days": "Edelliset 30 päivää",
+    "past60Days": "Viimeiset 60 päivää",
+    "past90Days": "Viimeiset 90 päivää"
+  },
+  "transactionStatus": {
+    "pending": "Odottaa",
+    "completed": "Valmis",
+    "cancelled": "Peruutettu",
+    "success": "Onnistui",
+    "failed": "Epäonnistui",
+    "expired": "Päättynyt",
+    "processing": "Käsittelyssä",
+    "unknown": "Tuntematon",
+    "notStarted": "Ei aloitettu",
+    "ongoing": "Menossa",
+    "done": "Valmis"
+  },
+  "transactionTypes": {
+    "deposit": "Ennakkomaksu",
+    "fiatDeposit": "Fiat talletus",
+    "cryptoDeposit": "Krypto talletus",
+    "withdrawal": "Peruuttaminen",
+    "fiatWithdraw": "Fiat vetäytyy",
+    "cryptoWithdraw": "Crypto nosto",
+    "bonus": "Bonus",
+    "win": "Voitto",
+    "bet": "Veto",
+    "refund": "Hyvitys",
+    "fiatDepositIssues": "Fiat-talletuksia koskevat kysymykset tai riidat",
+    "transaction": "Tapahtuma"
+  },
+  "gameTypes": {
+    "slots": "Slots",
+    "table": "Taulukko",
+    "live": "Live",
+    "crash": "Crash",
+    "sports": "Urheilu",
+    "roulette": "Ruletti",
+    "fishing": "Kalastus",
+    "poker": "Pokeri",
+    "blockchain": "Lohkoketju",
+    "keno": "Keno",
+    "show": "Näytä",
+    "arcade": "Arcade",
+    "unknown": "Tuntematon peli"
+  },
+  "tableHeaders": {
+    "time": "Aika",
+    "type": "Tyyppi",
+    "amount": "Summa",
+    "status": "Tila",
+    "details": "Lisätiedot",
+    "game": "Peli",
+    "bet": "Veto",
+    "betId": "Vedonlyöntitunnus",
+    "gameProvider": "Kuljetuspalvelu",
+    "multiplier": "Kerroin",
+    "payout": "Maksu",
+    "actions": "Toiminnot",
+    "profit": "Tuotto",
+    "wager": "Veto"
+  },
+  "details": {
+    "title": "Maksutapahtuman tiedot",
+    "paymentMethod": "Maksutapa",
+    "orderId": "Tilausnumero (ID)",
+    "transactionHash": "Transaktio Hash",
+    "created": "Luotu",
+    "transactionProgress": "Tapahtuman eteneminen",
+    "depositOrderCreated": "Talletusmääräys luotu",
+    "gatewayConfirmation": "Gateway vahvistus",
+    "transactionCompleted": "Transaktio suoritettu",
+    "lastUpdate": "Viimeisin päivitys",
+    "expired": "Tämä tilaus on vanhentunut. Ota yhteyttä, jos sinulla on kysyttävää."
+  },
+  "betHistory": {
+    "winAmount": "Voitto määrä",
+    "betAmount": "Vedon määrä"
+  },
+  "rollover": {
+    "wagerRequirement": "Panostusvaatimus",
+    "remainingWager": "Jäljellä oleva panos",
+    "expireTime": "Voimassaolo päättyy",
+    "rolloverType": "Kaatumistyyppi"
+  }
+}

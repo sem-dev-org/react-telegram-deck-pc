@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: 'dark';
+  default: true;
+  prefersdark: true;
+  color-scheme: 'light';
+  --color-base-100: color(display-p3 0.114 0.137 0.165);
+  --color-base-200: color(display-p3 0.098 0.118 0.141);
+  --color-base-300: color(display-p3 0.082 0.098 0.118);
+  --color-base-content: color(display-p3 0.651 0.678 0.733);
+  --color-primary: color(display-p3 0.906 0.984 0.471 / 0.8);
+  --color-primary-content: color(display-p3 0.161 0.161 0.161);
+  --color-secondary: color(display-p3 0.906 0.984 0.471 / 0.1);
+  --color-secondary-content: color(display-p3 0.905882 0.984314 0.470588 / 0.8);
+  --color-accent: color(display-p3 0.906 0.984 0.471 / 0.1);
+  --color-accent-content: color(display-p3 0.906 0.984 0.471 / 0.8);
+  --color-neutral: color(display-p3 0.165 0.196 0.235);
+  --color-neutral-content: color(display-p3 0.651 0.678 0.733);
+  --color-info: color(display-p3 0 0.71 1);
+  --color-info-content: color(display-p3 0 0 0);
+  --color-success: color(display-p3 0 0.663 0.431);
+  --color-success-content: color(display-p3 0.114 0.137 0.165);
+  --color-warning: color(display-p3 1 0.745 0);
+  --color-warning-content: color(display-p3 0 0 0);
+  --color-error: color(display-p3 0.960784 0.372549 0.443137 / 1);
+  --color-error-content: color(display-p3 0.988235 0.843137 0.858824 / 1);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 0px;
+  --depth: 0;
+  --noise: 0;
+}
+
+:root {
+  background-color: var(--color-base-300);
+}
+
+@theme {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 20px;
+  --text-3xl: 24px;
+  --text-4xl: 30px;
+  --text-5xl: 36px;
+  --text-6xl: 48px;
+  --breakpoint-xs: 30rem;
+}
+
+input[type='range'].slider-input {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  outline: 0;
+  background-color: transparent;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+input[type='range'].slider-input::-webkit-slider-runnable-track {
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+/* input[type='range'].slider-input::-webkit-slider-container { 
+    height: 20px; 
+    overflow: hidden;
+} */
+
+input[type='range'].slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 18px;
+  border-radius: var(--radius-md);
+  background-color: #ffffff;
+  /* border: 1px solid transparent; */
+  margin-top: -8px;
+  cursor: grab;
+  transition:
+    transform 0.1s ease,
+    background-color 0.2s ease;
+  /* border-image: linear-gradient(#f44336, #f44336) 0 fill / 15 20 15 0 / 0px 0px 0 2000px; */
+}
+
+/* Firefox styling */
+input[type='range'].slider-input::-moz-range-track {
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+input[type='range'].slider-input::-moz-range-thumb {
+  appearance: none;
+  width: 26px;
+  height: 18px;
+  border-radius: var(--radius-md);
+  background-color: #ffffff;
+  cursor: grab;
+  transition:
+    transform 0.1s ease,
+    background-color 0.2s ease;
+  border: none;
+}
+
+.bg-tournament::before {
+  background: radial-gradient(110.83% 88.64% at 0% 100%, rgba(226, 252, 95, 0.16) 0%, rgba(27, 35, 43, 0.2) 100%),
+    #1b232b;
+  background: radial-gradient(
+      110.83% 88.64% at 0% 100%,
+      color(display-p3 0.906 0.984 0.471 / 0.16) 0%,
+      color(display-p3 0.114 0.137 0.165 / 0.2) 100%
+    ),
+    color(display-p3 0.114 0.137 0.165);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 248px;
+  /*z-index: 1; */
+}

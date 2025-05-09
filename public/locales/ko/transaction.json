@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "닫기",
+    "copy": "복사",
+    "copied": "복사됨",
+    "noRecords": "레코드를 찾을 없습니다.",
+    "noTransactionRecords": "거래 기록을 찾을 수 없습니다",
+    "noRolloverRecords": "롤오버 레코드가 없습니다",
+    "noBettingRecords": "베팅 기록이 없습니다",
+    "tryChangingFilter": "필터 설정을 변경해 보세요"
+  },
+  "tabs": {
+    "transactionHistory": "거래내역",
+    "betHistory": "베팅 내역",
+    "rollover": "롤오버"
+  },
+  "filters": {
+    "all": "모두",
+    "allTypes": "모든타입",
+    "allStatuses": "모든 상태",
+    "allGames": "모든 게임",
+    "allAssets": "모든 자산",
+    "type": "유형",
+    "period": "기간",
+    "status": "상태",
+    "asset": "자산",
+    "game": "게임",
+    "currency": "통화",
+    "selectCurrency": "통화 선택",
+    "past24Hours": "지난 24시간",
+    "past7Days": "지난 7일",
+    "past30Days": "지난 30일",
+    "past60Days": "지난 60일",
+    "past90Days": "지난 90일"
+  },
+  "transactionStatus": {
+    "pending": "대기중",
+    "completed": "완료됨",
+    "cancelled": "취소됨",
+    "success": "성공",
+    "failed": "실패",
+    "expired": "만료됨",
+    "processing": "처리중",
+    "unknown": "알 수 없음",
+    "notStarted": "시작되지 않음",
+    "ongoing": "지속",
+    "done": "완료"
+  },
+  "transactionTypes": {
+    "deposit": "예금",
+    "fiatDeposit": "피아트 예금",
+    "cryptoDeposit": "암호화폐 입금",
+    "withdrawal": "출금",
+    "fiatWithdraw": "피아트 인출",
+    "cryptoWithdraw": "암호화폐 출금",
+    "bonus": "보너스",
+    "win": "당첨",
+    "bet": "베팅",
+    "refund": "환불",
+    "fiatDepositIssues": "법정 화폐 입금 문제 또는 분쟁",
+    "transaction": "거래"
+  },
+  "gameTypes": {
+    "slots": "슬롯",
+    "table": "테이블",
+    "live": "라이브",
+    "crash": "크래시",
+    "sports": "스포츠",
+    "roulette": "룰렛",
+    "fishing": "낚시",
+    "poker": "포커",
+    "blockchain": "블록체인",
+    "keno": "키노",
+    "show": "보이기",
+    "arcade": "아케이드",
+    "unknown": "알 수 없는 게임"
+  },
+  "tableHeaders": {
+    "time": "시간",
+    "type": "유형",
+    "amount": "금액",
+    "status": "상태",
+    "details": "상세정보",
+    "game": "게임",
+    "bet": "베팅",
+    "betId": "베팅 ID",
+    "gameProvider": "제공자 ",
+    "multiplier": "Multiplier",
+    "payout": "당첨금 지급",
+    "actions": "작업",
+    "profit": "결과",
+    "wager": "베티"
+  },
+  "details": {
+    "title": "거래내역",
+    "paymentMethod": "결제 방법",
+    "orderId": "주문 ID",
+    "transactionHash": "트랜잭션 해시",
+    "created": "생성됨",
+    "transactionProgress": "거래 진행 상황",
+    "depositOrderCreated": "입금 주문 생성",
+    "gatewayConfirmation": "게이트웨이 확인",
+    "transactionCompleted": "거래 완료",
+    "lastUpdate": "마지막 업데이트",
+    "expired": "주문이 만료되었습니다. 더 궁금한 점이 있으면 문의해 주세요."
+  },
+  "betHistory": {
+    "winAmount": "당첨 금액",
+    "betAmount": "베팅 금액"
+  },
+  "rollover": {
+    "wagerRequirement": "베팅 요건",
+    "remainingWager": "잔여 베팅",
+    "expireTime": "만료시간",
+    "rolloverType": "롤오버 유형"
+  }
+}

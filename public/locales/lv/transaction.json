@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Aizvērt",
+    "copy": "Kopēt",
+    "copied": "Kopēts",
+    "noRecords": "Nav atrasts neviens ieraksts",
+    "noTransactionRecords": "Darījumu ieraksti nav atrasti",
+    "noRolloverRecords": "Nav atrasts neviens apgāšanās ieraksts",
+    "noBettingRecords": "Nav atrasti derību ieraksti",
+    "tryChangingFilter": "Mēģiniet mainīt filtra iestatījumus"
+  },
+  "tabs": {
+    "transactionHistory": "Darījumu vēsture",
+    "betHistory": "Likmju vēsture",
+    "rollover": "Pārslēgšanās"
+  },
+  "filters": {
+    "all": "Visi",
+    "allTypes": "Visi veidi",
+    "allStatuses": "Visi statusi",
+    "allGames": "Visas spēles",
+    "allAssets": "Visi aktīvi",
+    "type": "Tips",
+    "period": "Periods",
+    "status": "Statuss",
+    "asset": "Pamatlīdzeklis",
+    "game": "Spēle",
+    "currency": "Valūta",
+    "selectCurrency": "Izvēlaties valūtu",
+    "past24Hours": "Pēdējās 24 stundas",
+    "past7Days": "Pēdējās 7 dienas",
+    "past30Days": "Pēdējās 30 dienas",
+    "past60Days": "Pēdējās 60 dienas",
+    "past90Days": "Pēdējās 90 dienas"
+  },
+  "transactionStatus": {
+    "pending": "Gaida",
+    "completed": "Pabeigts",
+    "cancelled": "Atcelts",
+    "success": "Veiksmīgi",
+    "failed": "Neizdevās",
+    "expired": "Beidzies",
+    "processing": "Apstrāde",
+    "unknown": "Nezināms",
+    "notStarted": "Nav uzsākta",
+    "ongoing": "Notiek",
+    "done": "Gatavs"
+  },
+  "transactionTypes": {
+    "deposit": "Depozīts",
+    "fiatDeposit": "Fiat depozīts",
+    "cryptoDeposit": "Kriptonauda depozīts",
+    "withdrawal": "Izslēgšana",
+    "fiatWithdraw": "Fiat atsaukšana",
+    "cryptoWithdraw": "Kriptonauda izņemšana",
+    "bonus": "Bonuss",
+    "win": "Uzvarēts",
+    "bet": "Likme",
+    "refund": "Atmaksa",
+    "fiatDepositIssues": "Fiat depozītu jautājumi vai strīdi",
+    "transaction": "Darījums"
+  },
+  "gameTypes": {
+    "slots": "Laika nišas",
+    "table": "Tabula",
+    "live": "Live",
+    "crash": "Crash",
+    "sports": "Sports",
+    "roulette": "Roulette",
+    "fishing": "Makšķerēšana",
+    "poker": "Pokers",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Rādīt",
+    "arcade": "Arcade",
+    "unknown": "Nezināma spēle"
+  },
+  "tableHeaders": {
+    "time": "Laiks",
+    "type": "Tips",
+    "amount": "Summa",
+    "status": "Statuss",
+    "details": "Detaļas",
+    "game": "Spēle",
+    "bet": "Likme",
+    "betId": "Likmes ID",
+    "gameProvider": "Piegādātājs",
+    "multiplier": "Multiplikators",
+    "payout": "Izmaksa",
+    "actions": "Darbības",
+    "profit": "Peļņa",
+    "wager": "Derības"
+  },
+  "details": {
+    "title": "Darījuma informācija",
+    "paymentMethod": "Apmaksas veids",
+    "orderId": "Pasūtījuma ID",
+    "transactionHash": "Darījuma Hash",
+    "created": "Izveidots",
+    "transactionProgress": "Darījuma progress",
+    "depositOrderCreated": "Izveidots depozīta rīkojums",
+    "gatewayConfirmation": "Vārtu apstiprinājums",
+    "transactionCompleted": "Darījums pabeigts",
+    "lastUpdate": "Pēdējais atjaunināšanas datums",
+    "expired": "Šī pasūtījuma termiņš ir beidzies. Ja jums ir vēl kādi jautājumi, sazinieties ar mums."
+  },
+  "betHistory": {
+    "winAmount": "Vinnestu summa",
+    "betAmount": "Likmes summa"
+  },
+  "rollover": {
+    "wagerRequirement": "Likmju prasība",
+    "remainingWager": "Atlikušās derības",
+    "expireTime": "Derīguma termiņa beigas",
+    "rolloverType": "Apgāšanās veids"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "goBack": "Geri Dön",
+    "tryAgain": "Tekrar deneyin",
+    "retry": "Tekrar dene",
+    "retryConnection": "Tekrar Bağlan",
+    "emptyStateNoContent": {
+        "title": "Burada henüz bir şey yok!",
+        "description": "Şu anda burada içerik yok gibi görünüyor. Daha sonra tekrar kontrol edin veya başka bir şey deneyin."
+    },
+    "failedToLoadPage": {
+        "title": "Bir şeyler ters gitti",
+        "description": "Sayfa yüklenirken bir sistem hatası oluştu. Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ekibiyle iletişime geçin."
+    },
+    "otherActiveSession": {
+        "title": "Oturum Hatası!",
+        "description": "Bu cihazdan erişim şu anda güvenlik nedeniyle kullanılamıyor. Bunun nedeni başka bir oturum açma veya sistem sorunu olabilir. Lütfen tekrar deneyin veya farklı bir cihaz kullanın."
+    },
+    "noInternetConnection": {
+        "title": "Oops! Çevrimdışısınız",
+        "description": "İnternete bağlı değilsiniz gibi görünüyor. Wi-Fi veya mobil verinizi kontrol edin ve tekrar çevrimiçi olduğunuzda tekrar deneyin."
+    },
+    "pageNotFound": {
+        "title": "Oops! Bu Sayfa Eksik",
+        "description": "Görünüşe göre bu sayfa mevcut değil veya taşınmış. URL'yi kontrol etmeyi deneyin veya eve geri dönün."
+    },
+    "tooManyRequest": {
+        "title": "Sıkı durun! Biraz Meşgulüz",
+        "description": "Görünüşe göre sunucularımız şu anda çok yoğun. Biraz bekleyin ve tekrar deneyin."
+    },
+    "underMaintenance": {
+        "title": "Hemen döneceğiz!",
+        "description": "İşlerin sorunsuz yürümesini sağlamak için bazı güncellemeler yapıyoruz. Yakında tekrar kontrol edin!"
+    },
+    "userRestriction": {
+        "title": "Oops! Buna Erişemezsiniz",
+        "description": "Bunu görüntülemek için izniniz yok gibi görünüyor. Erişiminizi iki kez kontrol edin veya yardım için ulaşın."
+    }
+}

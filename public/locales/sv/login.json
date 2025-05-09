@@ -1,0 +1,7 @@
+{
+    "emailError": "Vänligen ange en giltig e-postadress.",
+    "phoneError": "Vänligen ange ett giltigt telefonnummer.",
+    "passwordError": "Vänligen ange ett giltigt lösenord.",
+    "signIn": "Logga in",
+    "signUp": "Registrera dig"
+}

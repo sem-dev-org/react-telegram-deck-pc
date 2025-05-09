@@ -1,0 +1,7 @@
+{
+    "emailError": "Introduzca una dirección de correo electrónico válida.",
+    "phoneError": "Introduzca un número de teléfono válido.",
+    "passwordError": "Introduzca una contraseña válida.",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse"
+}

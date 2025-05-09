@@ -1,0 +1,117 @@
+{
+  "common": {
+    "close": "Uždaryti",
+    "copy": "Kopijuoti",
+    "copied": "Nukopijuota",
+    "noRecords": "Įrašų nerasta",
+    "noTransactionRecords": "Sandorių įrašų nerasta",
+    "noRolloverRecords": "Nerasta jokių įrašų apie apvirtimą",
+    "noBettingRecords": "Lažybų įrašų nerasta",
+    "tryChangingFilter": "Pabandykite pakeisti filtro nustatymus"
+  },
+  "tabs": {
+    "transactionHistory": "Sandorio istorija",
+    "betHistory": "Statymų istorija",
+    "rollover": "Apvirtimas"
+  },
+  "filters": {
+    "all": "Visi",
+    "allTypes": "Visi tipai",
+    "allStatuses": "Visos būsenos",
+    "allGames": "Visi žaidimai",
+    "allAssets": "Visas turtas",
+    "type": "Tipas",
+    "period": "Laikotarpis",
+    "status": "Būsena",
+    "asset": "Turtas",
+    "game": "Rungtynės",
+    "currency": "Valiuta",
+    "selectCurrency": "Pasirinkite valiutą",
+    "past24Hours": "Praėjusios 24 valandos",
+    "past7Days": "Praėjusios 7 dienos",
+    "past30Days": "Praėjusios 30 dienų",
+    "past60Days": "Praėjusios 60 dienų",
+    "past90Days": "Praėjusios 90 dienų"
+  },
+  "transactionStatus": {
+    "pending": "Laukiama",
+    "completed": "Įvykdytas",
+    "cancelled": "Atšaukta",
+    "success": "Sėkmingai",
+    "failed": "Nepavyko",
+    "expired": "Pasibaigę",
+    "processing": "Apdorojama",
+    "unknown": "Nežinomas",
+    "notStarted": "Neprasidėjo",
+    "ongoing": "Vyksta",
+    "done": "Atlikta"
+  },
+  "transactionTypes": {
+    "deposit": "Avansas",
+    "fiatDeposit": "\"Fiat\" indėlis",
+    "cryptoDeposit": "Kriptografinis indėlis",
+    "withdrawal": "Pinigų išmokėjimas",
+    "fiatWithdraw": "\"Fiat\" pasitraukimas",
+    "cryptoWithdraw": "Crypto atsiimti",
+    "bonus": "Premija",
+    "win": "Laimėkite",
+    "bet": "Statymas",
+    "refund": "Grąžinimas",
+    "fiatDepositIssues": "\"Fiat\" indėlių problemos ar ginčai",
+    "transaction": "Transakcija"
+  },
+  "gameTypes": {
+    "slots": "Lizdiniai automatai",
+    "table": "Lentelė",
+    "live": "Aktyvus",
+    "crash": "Crash",
+    "sports": "Sporto",
+    "roulette": "Ruletė",
+    "fishing": "Žvejybos",
+    "poker": "Pokeris",
+    "blockchain": "Blockchain",
+    "keno": "Keno",
+    "show": "Rodyti",
+    "arcade": "Arcade",
+    "unknown": "Nežinomas žaidimas"
+  },
+  "tableHeaders": {
+    "time": "Laikas",
+    "type": "Tipas",
+    "amount": "Suma",
+    "status": "Būsena",
+    "details": "Detalės",
+    "game": "Rungtynės",
+    "bet": "Statymas",
+    "betId": "Statymo ID",
+    "gameProvider": "Tiekėjas",
+    "multiplier": "Daugiklis",
+    "payout": "Išmokėjimas",
+    "actions": "Veiksmai",
+    "profit": "Pelnas ",
+    "wager": "Lažybos"
+  },
+  "details": {
+    "title": "Transakcijos detalės",
+    "paymentMethod": "Mokėjimo būdas",
+    "orderId": "Užsakymo ID",
+    "transactionHash": "Sandorio \"Hash",
+    "created": "Sukurta",
+    "transactionProgress": "Sandorio eiga",
+    "depositOrderCreated": "Sukurtas indėlio pavedimas",
+    "gatewayConfirmation": "Vartų patvirtinimas",
+    "transactionCompleted": "Sandoris baigtas",
+    "lastUpdate": "Paskutinis Atnaujinimas",
+    "expired": "Šio užsakymo galiojimas baigėsi. Susisiekite su mumis, jei turite daugiau klausimų."
+  },
+  "betHistory": {
+    "winAmount": "Laimėjimo suma",
+    "betAmount": "Statymo suma"
+  },
+  "rollover": {
+    "wagerRequirement": "Lažybų reikalavimas",
+    "remainingWager": "Likęs statymas",
+    "expireTime": "Galiojimo terminas",
+    "rolloverType": "Apvirtimo tipas"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "emailError": "Anna voimassa oleva sähköpostiosoite.",
+    "phoneError": "Anna voimassa oleva puhelinnumero.",
+    "passwordError": "Anna voimassa oleva salasana.",
+    "signIn": "Kirjaudu sisään",
+    "signUp": "Rekisteröidy"
+}

@@ -1,0 +1,38 @@
+{
+    "goBack": "返回",
+    "tryAgain": "再試一次",
+    "retry": "重試",
+    "retryConnection": "重試連線",
+    "emptyStateNoContent": {
+        "title": "這裡什麼都還沒有！",
+        "description": "看起來這裡現在沒有內容。請稍後再查看或嘗試其他內容。"
+    },
+    "failedToLoadPage": {
+        "title": "發生了錯誤",
+        "description": "載入頁面時發生系統錯誤。請稍後再試，如果問題仍然存在，請聯絡支援人員。"
+    },
+    "otherActiveSession": {
+        "title": "會話錯誤！",
+        "description": "由於安全原因，目前無法從此裝置存取。這可能是由於其他登入或系統問題。請再試一次或使用其他裝置。"
+    },
+    "noInternetConnection": {
+        "title": "哎呀您已離線",
+        "description": "您好像沒有連線到網際網路。請檢查您的 Wi-Fi 或行動數據，並在重新連線後再試一次。"
+    },
+    "pageNotFound": {
+        "title": "哎呀此頁缺失",
+        "description": "看起來這個頁面不存在或被移動了。請嘗試檢查 URL 或返回主頁。"
+    },
+    "tooManyRequest": {
+        "title": "抓緊時間！我們有點忙",
+        "description": "看起來我們的伺服器現在正在處理很多事情。請稍候再試。"
+    },
+    "underMaintenance": {
+        "title": "我們馬上回來！",
+        "description": "我們正在進行一些更新，以確保運作順暢。請盡快回來查看！"
+    },
+    "userRestriction": {
+        "title": "哎呀！您無法存取",
+        "description": "看起來您沒有檢視此內容的權限。請仔細檢查您的存取權限，或尋求協助。"
+    }
+}
