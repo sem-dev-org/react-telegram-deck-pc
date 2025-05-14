@@ -230,6 +230,7 @@ const LatestContent = () => {
     const icon = tabs.find((c: { id: string }) => c.id === game_type_2)?.icon;
     return icon || '';
   };
+  const { checkPageNavToApp } = useSystem();
   const [detailModal, setDetailModal] = useState<INewestGameOrder | null>(null);
 
   return (
@@ -249,7 +250,10 @@ const LatestContent = () => {
                 key={`${item.id || index}-${item.nickname}`}
                 item={item}
                 index={index}
-                onClick={() => setDetailModal(item)}
+                onClick={() => {
+                  if (checkPageNavToApp()) return;
+                  setDetailModal(item)
+                }}
                 convertCurrency={convertCurrency}
                 displayInFiat={displayInFiat}
                 user={user}
@@ -475,18 +479,18 @@ export const CasinoTabs = () => {
 
   // Render tournament content based on the active tab
   const renderTournamentContent = useCallback(
-    (tabValue: string, isProgress?: boolean) => {
+    (tabValue: string, showProgress?: boolean) => {
       if (!tournamentList) return null;
 
       const tournamentData = tournamentList.find((t) => t.provider === tabValue);
       if (!tournamentData) return null;
-      if (!isProgress) isProgress = false;
+      if (!showProgress) showProgress = false;
 
       switch (tabValue) {
         case 'jili':
-          return <JiliContent obj={tournamentData} disableProgress={isProgress} />;
+          return <JiliContent obj={tournamentData} islocal={showProgress} />;
         case 'pg':
-          return <PgContent obj={tournamentData} disableProgress={isProgress} />;
+          return <PgContent obj={tournamentData} islocal={showProgress} />;
         case '0':
           // 错误提示表明 TreasureContent 组件不接受 disableProgress 属性，因此只传递 obj 属性
           return <TreasureContent obj={tournamentData} />;
@@ -496,6 +500,8 @@ export const CasinoTabs = () => {
     },
     [tournamentList],
   );
+
+  // const renderLocalTournamentContent = useCallback(() => {}, []);
 
   // Get the content for the active tab
   const renderTabContent = useMemo(() => {
@@ -528,6 +534,74 @@ export const CasinoTabs = () => {
       !isFirstTab && !isLastTab && 'rounded-xl',
     );
   }, [activeTab, filteredTabs]);
+
+  const now = new Date();
+  // // 设置为当月的第一天
+  // const firstDayOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+  // // 设置时间为 0 点 0 分 0 秒 0 毫秒
+  // firstDayOfMonth.setHours(0, 0, 0, 0);
+  // created_at: firstDayOfMonth;
+
+  // 获取当前年份
+  const year = now.getFullYear();
+  // 获取当前月份（注意：月份从 0 开始计数，所以要加 1）
+  const month = now.getMonth() + 1;
+  // 构建当月最后一天的日期对象
+  const lastDayOfMonth = new Date(year, month, 0);
+  // 设置时间为最后一秒
+  lastDayOfMonth.setHours(23, 59, 59, 999);
+  const firstDayOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+  firstDayOfMonth.setHours(0, 0, 0, 0);
+
+  // 获取时间戳
+  // const timestamp = lastDayOfMonth.getTime();
+
+  const createTournament = (key: string) => {
+    let id = 0;
+    let provider_id = 0;
+    let provider = '';
+    let name = '';
+    let desc = '';
+
+    if (key === 'jj') {
+      id = 2;
+      provider_id = 1;
+      provider = 'jili';
+      name = 'Jili tournament';
+      desc = 'Jili tournament';
+    } else {
+      id = 3;
+      provider_id = 3;
+      provider = 'pg';
+      name = 'PG tournament';
+      desc = 'PG tournament';
+    }
+
+    return {
+      id: id,
+      name: name,
+      provider_id: provider_id,
+      provider: provider,
+      game_type_id: 1,
+      game_type_2: 'slots',
+      desc: desc,
+      created_at: '1744118725',
+      updated_at: '1744118725',
+      end_time: 1747324799,
+      user_info: {
+        user_id: 1,
+        tournament_id: 2,
+        is_joined: false,
+        tournament_level: 'bronze',
+        wagered: '0',
+        rank: 0,
+        prize: 0,
+        date: firstDayOfMonth.getTime() / 1000,
+        total_participants: 9,
+        prize_rate: '',
+      },
+    };
+  };
 
   const formatTournamentName = (name: string) => {
     // format tournament name
@@ -589,18 +663,19 @@ export const CasinoTabs = () => {
         <div className={contentContainerClasses}>{renderTabContent}</div>
       </div>
 
-      {!isMobile && !!user && (
+      {!isMobile && (
         <div className="ml-6 flex flex-col">
           <div className="tab w-88 [--tab-bg:var(--color-base-100)]">
             <label className="text-sm">{t('casino:activeTournaments')}</label>
           </div>
           {/* card 1  */}
           <div className="w-88 rounded-2xl">
-            <div>{renderTournamentContent('jili', true)}</div>
+            {/* <div>{renderTournamentContent('jili', true)}</div> */}
+            <JiliContent obj={createTournament('jj')} islocal={true} />
           </div>
           {/* card 2 */}
           <div className="mt-6 w-88 rounded-2xl">
-            <div>{renderTournamentContent('pg', true)}</div>
+            <PgContent obj={createTournament('pg')} islocal={true} />
           </div>
         </div>
       )}

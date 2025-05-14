@@ -14,12 +14,14 @@ import { IGame } from '@/types/game';
 import { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
+import { useSystem } from '@/hooks';
 
 type CasinoHotGamesProps = {
   onCurrencySelect: () => void;
 };
 
 export const CasinoHotGames = ({ onCurrencySelect }: CasinoHotGamesProps) => {
+  const { checkPageNavToApp } = useSystem();
   const navigate = useNavigate();
   const { carouselRef: effectCardsRef } = useCarousel<EffectCardsHandle>();
   const { t } = useTranslation();
@@ -140,7 +142,10 @@ export const CasinoHotGames = ({ onCurrencySelect }: CasinoHotGamesProps) => {
               gameList.map((game, index) => (
                 <div
                   key={index}
-                  onClick={() => navigate(`${paths.main.game.details}${game.game_id}/${game.game_provider}`)}
+                  onClick={() => {
+                    if (checkPageNavToApp()) return;
+                    navigate(`${paths.main.game.details}${game.game_id}/${game.game_provider}`);
+                  }}
                   className="relative mr-2 min-h-[150px] min-w-0 flex-[0_0_30%]"
                 >
                   <GameImage game={game} className="max-h-[155px] rounded-2xl object-fill" />
@@ -160,7 +165,10 @@ export const CasinoHotGames = ({ onCurrencySelect }: CasinoHotGamesProps) => {
                 gameList.map((game, index) => (
                   <div
                     key={index}
-                    onClick={() => navigate(`${paths.main.game.details}${game.game_id}/${game.game_provider}`)}
+                    onClick={() => {
+                      if (checkPageNavToApp()) return;
+                      navigate(`${paths.main.game.details}${game.game_id}/${game.game_provider}`);
+                    }}
                     className="scale-carousel__container min-h-[190px] min-w-0 flex-[0_0_120px]"
                   >
                     <div className="scale-carousel__item">
@@ -174,7 +182,10 @@ export const CasinoHotGames = ({ onCurrencySelect }: CasinoHotGamesProps) => {
           <div className="flex items-center justify-center gap-4">
             <button
               className="btn btn-sm btn-square bg-secondary"
-              onClick={() => navigate(`${paths.main.game.details}${currentGame?.game_id}/${currentGame?.game_provider}`)}
+              onClick={() => {
+                if (checkPageNavToApp()) return;
+                navigate(`${paths.main.game.details}${currentGame?.game_id}/${currentGame?.game_provider}`);
+              }}
             >
               <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -259,7 +270,10 @@ export const CasinoHotGames = ({ onCurrencySelect }: CasinoHotGamesProps) => {
             </button>
             <button
               className="btn bg-base-200 btn-sm join-item flex h-9 w-9 items-center gap-2 p-0"
-              onClick={() => navigate(paths.main.finance.deposit)}
+              onClick={() => {
+                if (checkPageNavToApp()) return;
+                navigate(paths.main.finance.deposit);
+              }}
             >
               <img src="/images/wallet.png" className="h-6 w-6 opacity-80" />
             </button>

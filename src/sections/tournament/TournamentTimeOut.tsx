@@ -20,7 +20,8 @@ type TournamentTimeOutProps = {
     prize: number;
   };
   data: ITournamentInfo;
-}
+  islocal?: boolean;
+};
 
 const isGreaterThanOneDay = (time: TournamentTimeOutProps['details']['time']) => {
   if (time.days && time.days > 0) return true;
@@ -49,7 +50,7 @@ const isGreaterThanOneSecond = (time: TournamentTimeOutProps['details']['time'])
   return false;
 };
 
-export const TournamentTimeOut = ({ details, data }: TournamentTimeOutProps) => { 
+export const TournamentTimeOut = ({ details, data, islocal }: TournamentTimeOutProps) => {
   const { t } = useTranslation();
   const [countdown, setCountdown] = useState({
     days: 0,
@@ -65,9 +66,9 @@ export const TournamentTimeOut = ({ details, data }: TournamentTimeOutProps) => 
       minutes: details.time.minutes || 0,
       seconds: details.time.seconds,
     });
- 
+
     const timer = setInterval(() => {
-      setCountdown((prev) => {  
+      setCountdown((prev) => {
         if (prev.seconds > 0) {
           return { ...prev, seconds: prev.seconds - 1 };
         } else if (prev.minutes && prev.minutes > 0) {
@@ -95,18 +96,27 @@ export const TournamentTimeOut = ({ details, data }: TournamentTimeOutProps) => 
   //   return () => clearInterval(timer);
   // }, []);
 
-  // const [poolPrize, setPoolPrize] = useState<number>(0);  
-  const { data: poolPrizeData = { data: 0, code: 0 } } = useQuery<{ data: number, code: number }>({ 
-    queryKey: ['getPoolPrize', data.tournament_id, data.tournament_level],
-    queryFn: () => getPoolPrize({
-      tournament_id: data.tournament_id,
-      tournament_level: data.tournament_level,
-    }),
-    refetchOnMount: true, 
-    refetchOnWindowFocus: true,
-    refetchInterval: 10 * 1000, 
-    enabled: !!data.tournament_id && !!data.tournament_level,
-  });
+  // const [poolPrize, setPoolPrize] = useState<number>(0);
+
+  const { data: poolPrizeData = { data: 0, code: 0 } } = islocal
+    ? {
+        data: {
+          code: 0,
+          data: 22.7293,
+        },
+      }
+    : useQuery<{ data: number; code: number }>({
+        queryKey: ['getPoolPrize', data.tournament_id, data.tournament_level],
+        queryFn: () =>
+          getPoolPrize({
+            tournament_id: data.tournament_id,
+            tournament_level: data.tournament_level,
+          }),
+        refetchOnMount: true,
+        refetchOnWindowFocus: true,
+        refetchInterval: 10 * 1000,
+        enabled: !!data.tournament_id && !!data.tournament_level,
+      });
   // const getFun = useCallback(async () => {
   //   if (data) {
   //     getPoolPrize({
@@ -130,19 +140,18 @@ export const TournamentTimeOut = ({ details, data }: TournamentTimeOutProps) => 
   //   }
   // }, [getFun, data]);
 
-
   const { user } = useAuth();
   // const { displayDecimal } = QueryCurrency(user?.currency_fiat ?? '');
   // const { rateForUSD } = QueryRateForUSD();
 
   const symbolToUse: string = useMemo(() => {
-    return getCurrencySymbolFun(user?.currency_fiat ?? '') ?? '';    
+    return getCurrencySymbolFun(user?.currency_fiat ?? '') ?? '';
   }, [user]);
 
   const { formatCurrency } = useCurrencyFormatter();
 
   return (
-    <div className="flex flex-col justify-center h-full">
+    <div className="flex h-full flex-col justify-center">
       <div
         className="font-montserrat mb-3 flex flex-col items-start justify-between text-[18px] leading-[21px] font-bold text-white"
         style={{
@@ -214,19 +223,23 @@ export const TournamentTimeOut = ({ details, data }: TournamentTimeOutProps) => 
           >
             <div className="font-montserrat text-[8px]">{t('tournament:progressivePrizePool')}</div>
             <NumberFlow
-              prefix={symbolToUse + " "}
+              prefix={symbolToUse + ' '}
               plugins={[continuous]}
-              value={poolPrizeData.code === 0 ? Number(
-                formatCurrency(poolPrizeData.data,{includeSymbol:false})
-              //   convertCurrency(poolPrizeData.data, {
-              //   sourceCurrency: 'USDT',
-              //   targetCurrency: user?.currency_fiat ?? '',
-              //   includeSymbol: false,
-              //   numberAmount: true,
-              // })
-            ) : 0}
+              value={
+                poolPrizeData.code === 0
+                  ? Number(
+                      formatCurrency(poolPrizeData.data, { includeSymbol: false }),
+                      //   convertCurrency(poolPrizeData.data, {
+                      //   sourceCurrency: 'USDT',
+                      //   targetCurrency: user?.currency_fiat ?? '',
+                      //   includeSymbol: false,
+                      //   numberAmount: true,
+                      // })
+                    )
+                  : 0
+              }
               className="font-montserrat text-primary font-bold"
-            /> 
+            />
           </div>
         </div>
       </div>

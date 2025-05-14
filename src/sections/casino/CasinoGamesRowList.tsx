@@ -8,9 +8,11 @@ import { paths } from '@/routes/paths';
 import { useAuth } from '@/contexts/auth';
 import { useNavigate } from 'react-router-dom';
 import { useMemo } from 'react';
+import { useSystem } from '@/hooks';
 
 export const CasinoGamesRowList = ({ type, title }: { type: string; title: string }) => {
-  const navigate = useNavigate();
+const { checkPageNavToApp } = useSystem();
+const navigate = useNavigate();
 
   // const { data: slotsGameList } = useGetGameListSlots();
   const name = type.charAt(0).toUpperCase() + type.slice(1);
@@ -38,7 +40,10 @@ export const CasinoGamesRowList = ({ type, title }: { type: string; title: strin
             <div
               key={index}
               className="m-h-[150px] relative mr-2 flex min-w-0 flex-col items-center justify-center gap-0.5 @2xs:flex-[0_0_44.5%] @xs:flex-[0_0_30%] @sm:flex-[0_0_30%] @md:flex-[0_0_22.2%] @lg:flex-[0_0_17.8%] @xl:flex-[0_0_16.666%] @2xl:flex-[0_0_14.285%] @3xl:flex-[0_0_10.9%]"
-              onClick={() => navigate(`${paths.main.game.details}${slide.game_id}/${slide.game_provider}`)}
+              onClick={() =>{
+                if (checkPageNavToApp()) return;
+                navigate(`${paths.main.game.details}${slide.game_id}/${slide.game_provider}`)
+              }}
             >
               <GameImage game={slide} className="rounded-2xl object-fill" />
               {status && (

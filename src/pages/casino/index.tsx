@@ -324,7 +324,7 @@ export default function CasinoPage() {
 
   // style={{ '--value': details.time.days } as React.CSSProperties}
   return (
-    <div className="flex">
+    <div className="flex gap-1">
       {/* PC端用于给左侧目录站位空间 */}
       {!isMobile && (
         <div className="bg-base-200 h-auto">
@@ -370,18 +370,18 @@ export default function CasinoPage() {
         )}
 
         <SafeArea top={false} className="flex w-full flex-col gap-3 px-3">
-          <CasinoHotGames onCurrencySelect={() => setOpenCurrencySelectDrawer(true)} />
-          <CasinoRecentGames />
+          {/* <CasinoHotGames onCurrencySelect={() => setOpenCurrencySelectDrawer(true)} />
+          <CasinoRecentGames /> */}
           {/* <CasinoCrashGames /> */}
           {[{ type: 'slots', title: t('casino:slotsGames') }].map((type) => (
             <CasinoGamesRowList key={type.type} type={type.type} title={type.title} />
           ))}
-          <CasinoGameProviders />
+          {/* <CasinoGameProviders />
           <CasinoPayment />
-          <CasinoTabs />
+          <CasinoTabs /> */}
           {/* <CasinoLiveGames />
         <CasinoSlotsGames /> */}
-          {[
+          {/* {[
             { type: 'crash', title: t('casino:crashGames') },
             { type: 'sport', title: t('casino:sportGames') },
             { type: 'esport', title: t('casino:esportGames') },
@@ -400,7 +400,7 @@ export default function CasinoPage() {
             <CasinoGamesRowList key={type.type} type={type.type} title={type.title} />
           ))}
           <CurrencySelectDrawer open={openCurrencySelectDrawer} onClose={() => setOpenCurrencySelectDrawer(false)} />
-          {!isMobile && <CasinoBottom />}
+          {!isMobile && <CasinoBottom />} */}
         </SafeArea>
       </Page>
     </div>

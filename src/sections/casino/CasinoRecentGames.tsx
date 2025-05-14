@@ -14,7 +14,7 @@ import { useSystem } from '@/hooks';
 export const CasinoRecentGames = () => {
   const { user } = useAuth();
   const { greatestGameOrder } = QueryGreatestGameOrder();
-  const { isMobile } = useSystem();
+  const { isMobile, checkPageNavToApp } = useSystem();
 
   const [emblaRef] = useEmblaCarousel(
     {
@@ -32,7 +32,7 @@ export const CasinoRecentGames = () => {
 
   return (
     <div className="flex flex-col gap-2">
-     <div className="flex items-center gap-2 leading-8">
+      <div className="flex items-center gap-2 leading-8">
         <div className="inline-grid *:[grid-area:1/1]">
           <div className="status status-primary animate-ping"></div>
           <div className="status status-primary"></div>
@@ -46,8 +46,11 @@ export const CasinoRecentGames = () => {
             greatestGameOrder?.map((slide, index) => (
               <div
                 key={index}
-                className={`relative mr-2 flex min-w-0 flex-col items-center justify-center gap-0.5  ${isMobile?'m-h-[150px] flex-[0_0_47px]':'m-h-[121px] flex-[0_0_70px]'}`}
-                onClick={() => setDetailModal(slide)}
+                className={`relative mr-2 flex min-w-0 flex-col items-center justify-center gap-0.5 ${isMobile ? 'm-h-[150px] flex-[0_0_47px]' : 'm-h-[121px] flex-[0_0_70px]'}`}
+                onClick={() => {
+                  if (checkPageNavToApp()) return;
+                  setDetailModal(slide);
+                }}
               >
                 <GameImage game={slide} className="rounded-lg object-cover" />
 

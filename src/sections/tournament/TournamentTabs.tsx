@@ -7,9 +7,11 @@ import { useEffect, useState } from 'react';
 import { paths } from '@/routes/paths';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '@/contexts/language';
+import { useSystem } from '@/hooks';
 
-export const JiliContent = ({ obj, disableProgress }: { obj?: ITournament; disableProgress: boolean }) => {
+export const JiliContent = ({ obj, islocal }: { obj?: ITournament; islocal?: boolean }) => {
   const { t } = useTranslation();
+  const { checkPageNavToApp } = useSystem();
   const [details, setDetails] = useState({
     prize: 50000,
     name: t('tournament:jiliSlotsMegaBonanza'),
@@ -58,17 +60,6 @@ export const JiliContent = ({ obj, disableProgress }: { obj?: ITournament; disab
           seconds,
         },
       });
-
-      // getPoolPrize({
-      //   tournament_id: data.tournament_id,
-      //   tournament_level:  data.tournament_level,
-      // }).then((res) => {
-      //   if (res.code === 200) {
-      //     console.log(res.data);
-      //   }
-      // });
-      //   }
-      // });
     }
   }, [obj]);
 
@@ -83,7 +74,10 @@ export const JiliContent = ({ obj, disableProgress }: { obj?: ITournament; disab
           background: `
             radial-gradient(100% 308% at 100% 0%, rgba(213, 158, 147, 0.5) 0%, rgba(20, 25, 31, 0.5) 100%)`,
         }}
-        onClick={() => navigate(paths.main.tournament.root + '?provider=' + obj?.provider_id)}
+        onClick={() => {
+          if (checkPageNavToApp()) return;
+          navigate(paths.main.tournament.root + '?provider=' + obj?.provider_id);
+        }}
       >
         <div
           style={{
@@ -102,20 +96,21 @@ export const JiliContent = ({ obj, disableProgress }: { obj?: ITournament; disab
           />
         </div>
         <div className=" ">
-          <TournamentTimeOut details={details} data={tournamentInfo} />
+          <TournamentTimeOut details={details} data={tournamentInfo} islocal={islocal} />
         </div>
         <TournamentLogo img="/images/tournament/jili-logo.png" className="!bottom-6.5" />
       </div>
 
-      {!disableProgress && <TournamentMyProgress data={tournamentInfo} className="rounded-t-none rounded-b-2xl" />}
+      {!islocal && <TournamentMyProgress data={tournamentInfo} className="rounded-t-none rounded-b-2xl" />}
     </div>
   );
 };
 
-export const PgContent = ({ obj, disableProgress }: { obj?: any; disableProgress: boolean }) => {
+export const PgContent = ({ obj, islocal }: { obj?: any; islocal: boolean }) => {
   const { t } = useTranslation();
   const { isRTL } = useLanguage();
   const [tournamentInfo, setTournamentInfo] = useState<ITournamentInfo>({} as ITournamentInfo);
+  const { checkPageNavToApp } = useSystem();
   const [details, setDetails] = useState({
     prize: 50000,
     name: t('tournament:pgSoftRaces'),
@@ -179,7 +174,11 @@ export const PgContent = ({ obj, disableProgress }: { obj?: any; disableProgress
           background: `
             radial-gradient(100% 308% at 100% 0%, rgba(17, 42, 95, 0.5) 0%, rgba(20, 25, 31, 0.5) 100%)`,
         }}
-        onClick={() => navigate(paths.main.tournament.root + '?provider=' + obj?.provider_id)}
+        onClick={() => {
+          if (checkPageNavToApp()) return;
+
+          navigate(paths.main.tournament.root + '?provider=' + obj?.provider_id);
+        }}
       >
         <div
           style={{
@@ -198,11 +197,11 @@ export const PgContent = ({ obj, disableProgress }: { obj?: any; disableProgress
           />
         </div>
         <div className=" ">
-          <TournamentTimeOut details={details} data={tournamentInfo} />
+          <TournamentTimeOut details={details} data={tournamentInfo} islocal={islocal} />
         </div>
         <TournamentLogo img="/images/tournament/pg-logo.png" className="!bottom-6.5" />
       </div>
-      {!disableProgress && <TournamentMyProgress data={tournamentInfo} className="rounded-t-none rounded-b-2xl" />}
+      {!islocal && <TournamentMyProgress data={tournamentInfo} className="rounded-t-none rounded-b-2xl" />}
     </div>
   );
 };
